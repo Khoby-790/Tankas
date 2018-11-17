@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from one.encodeinfotech.com/Masters/Employees/Manage by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Nov 2018 18:41:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Employee - Bootstrap 4 Admin Template for .Net Core 2.1</title>
+    <meta name="description" content="High performance admin theme for .net core with all features like bootstrap 4, entity framework and.net identity. This theme can be used for any kind of application Manage Employee" />
+    <meta name="news_keywords" content="bootstrap 4, admin template, admin theme, .net core admin theme" />
+    
+    
+        <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../../use.fontawesome.com/releases/v5.2.0/css/all.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["\/lib\/font-awsome\/css\/fontawesome-all.min.css"], "rel=\u0022stylesheet\u0022 ");</script>
+        <link href="../../lib/open-conic/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+        <link href="../../lib/toastr/toastr.min.css" rel="stylesheet" />
+        
+    <link href="../../lib/flatpickr/flatpickr.min.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="../../css/site.min1d03.css?v=tmqmN6_0kJDe7fnylIZZqslslFLtARTV3Kc-huPRako" />
+        <link href="../../css/custom.css" rel="stylesheet" />
+        <!--Remove demo.css from development-->
+        <link href="../../css/demo.css" rel="stylesheet" />
+    
+</head>
+<body class=" theme-one">
+    <header class="navbar navbar-collapse navbar-dark fixed-top flex-md-nowrap p-0 main-header">
+        <div class="navbar-brand mr-0">
+            <button class="btn btn-link d-xl-none" data-et-action="aside-open" data-et-target=".sidebar" p-0 ml-1" id="btnmenu">
+                <i class="fas fa-align-justify"></i>
+            </button>
+            <a class="d-none d-md-block" href="../../index.html"><img alt="Bootstrap 4 Admin Template for .Net Core 2.1" class="brand-logo" src="../../images/logo.png" style="height:35px;" /></a>
+            <a href="../../index.html" class="d-md-none"><img alt="Bootstrap 4 Admin Template for .Net Core 2.1" class="brand-logo-icon" src="../../images/logo-icon.png" style="height:35px;" /></a>
+        </div>
+        <div class="container-nav-bar">
+            <ul class="nav justify-content-end navbar-right">
+                <li class="dropdown nav-item has-notified">
+                    <a href="#" class="dropdown" data-toggle="dropdown">
+                        <i class="far fa-comment-alt"></i>
+                        <span class="d-none d-md-block d-lg-block d-xl-block">MESSAGES</span>
+                    </a>
+                    <div class="dropdown-arrow"></div>
+                    <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+                        <h6 class="dropdown-header stop-propagation">
+                            <span>
+                                Activities
+                                <span class="badge badge-pill badge-danger">2</span>
+                            </span>
+                        </h6>
+                        <div class="dropdown-scroll has-scrollable ps">
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="../../images/avatars/employee-1.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Jeffrey Wells created a schedule </p>
+                                    <span class="date small">Just now</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="../../images/avatars/employee-2.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Fuller Andrew sent an email </p>
+                                    <span class="date small">2 minutes ago</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="../../images/avatars/employee-3.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Peacock Margaret uploaded reports</p>
+                                    <span class="date small">2 hours ago</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="../../images/avatars/employee-4.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Callahan Laura on Leave</p>
+                                    <span class="date small">2 days ago</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown" data-toggle="dropdown">
+                        <i class="fas fa-globe"></i>
+                        <span class="d-none d-md-block d-lg-block d-xl-block">
+English                        </span>
+                    </a>
+                    <div class="dropdown-arrow"></div>
+                    <div role="menu" class="dropdown-menu dropdown-light dropdown-menu-right">
+                        <a class="dropdown-item changeCulture" href="#" culture="en">English</a>
+                        <a class="dropdown-item changeCulture" href="#" culture="ar">&#x639;&#x631;&#x628;&#x649;</a>
+                        <a class="dropdown-item changeCulture" href="#" culture="zh">&#x4E2D;&#x6587;</a>
+                        <a class="dropdown-item infoOtherLanguage" data-toggle="modal" data-target="#infoModalSm" href="#">Other Languages</a>
+                    </div>
+                </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown btn-user" data-toggle="dropdown">
+                        <span class="user-avatar">
+                            <img src="../../images/user-profile.png" alt="">
+                        </span>
+                        <span class="profile-summary pr-lg-2 d-none d-lg-block">
+                            <span class="profile-name">John Heart</span>
+                            <span class="profile-description">Marketing Manager</span>
+                        </span>
+                    </a>
+                    <div class="dropdown-arrow"></div>
+                    <div class="dropdown-menu dropdown-menu-right mr-2">
+                        <a class="dropdown-item" href="../../User/UserProfile.html">
+                            <i class="far fa-user"></i> Profile
+                        </a>
+                        <a class="dropdown-item" href="../../index.html">
+                            <i class="fas fa-sign-in-alt"></i> Logout
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                        <a class="dropdown-item" href="#">Ask Forum</a>
+                        <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <aside id="menu" class="bg-light sidebar">
+            <div class="search-form">
+                <input id="menuSearch" class="form-control form-control-sm w-100" type="text" placeholder="Search menu" aria-label="Search">
+            </div>
+            <nav id="slide-menu" class="slide-menu slide-menu-has-collapsible do-scroll">
+                
+<ul class="menu"><li class="menu-item"><a href="../../index.html" class="menu-link"><span class="menu-icon fa fa-tachometer-alt"></span><span class="menu-text">Dashboard</span></a></li><li class="menu-item has-child has-active"><a href="#" class="menu-link"><span class="menu-icon fa fa-database"></span><span class="menu-text">Entity Framework</span><span class="badge badge-warning" id="badgeCrud">CRUD</span></a><ul class="menu"><li class="menu-item has-active"><a href="../Employees.html" class="menu-link">Employee Master</a></li><li class="menu-item"><a href="../Designations.html" class="menu-link">Designation Master</a></li><li class="menu-item"><a href="../Departments.html" class="menu-link">Department Master</a></li><li class="menu-item"><a href="../Countries.html" class="menu-link">Country Master</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user-cog"></span><span class="menu-text">.Net Identity Custom</span><span class="badge badge-success" id="badgeNew">New</span></a><ul class="menu"><li class="menu-item"><a href="../../Identity/Account/Login6ee2.html" class="menu-link">Manage</a></li><li class="menu-item"><a href="../../Identity/Account/Login.html" class="menu-link">Login</a></li><li class="menu-item"><a href="../../Identity/Account/Register.html" class="menu-link">Registration</a></li><li class="menu-item"><a href="../../Identity/Account/ForgotPassword.html" class="menu-link">Forgot Password</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fa fa-puzzle-piece"></span><span class="menu-text">HTML Components</span></a><ul class="menu"><li class="menu-item"><a href="../../Components/GeneralElements.html" class="menu-link">General Elements</a></li><li class="menu-item"><a href="../../Components/FontIconsOpenIconic.html" class="menu-link">Font Icons (Open Iconic)</a></li><li class="menu-item"><a href="../../Components/FontIconsFontAwsome.html" class="menu-link">Font Icons (Font Awsome)</a></li><li class="menu-item"><a href="../../Components/ListViews.html" class="menu-link">List Views</a></li><li class="menu-item"><a href="../../Components/TreeViews.html" class="menu-link">Tree Views</a></li><li class="menu-item"><a href="../../Components/SortableNestable.html" class="menu-link">Sortable & Nestable</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-table"></span><span class="menu-text">Tables</span></a><ul class="menu"><li class="menu-item"><a href="../../Tables/HTMLTable.html" class="menu-link">HTML Tables</a></li><li class="menu-item"><a href="../../Tables/DataTable.html" class="menu-link">Data Tables</a></li><li class="menu-item"><a href="../Employees.html" class="menu-link">Data Tables (Server Mode)</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fab fa-wpforms"></span><span class="menu-text">Forms</span></a><ul class="menu"><li class="menu-item"><a href="../../Forms/BasicElements.html" class="menu-link">Basic Elements</a></li><li class="menu-item"><a href="../../Forms/InputGroup.html" class="menu-link">Input Group</a></li><li class="menu-item"><a href="../../Forms/FormValidations.html" class="menu-link">Form Validations</a></li><li class="menu-item"><a href="../../Forms/CustomForms.html" class="menu-link">Custom Forms</a></li><li class="menu-item"><a href="../../Forms/Select2.html" class="menu-link">Select2</a></li><li class="menu-item"><a href="../../Forms/Typehead.html" class="menu-link">Typehead</a></li><li class="menu-item"><a href="../../Forms/Pickers.html" class="menu-link">Pickers</a></li><li class="menu-item"><a href="../../Forms/HTMLEditors.html" class="menu-link">HTML Editors</a></li><li class="menu-item"><a href="../../Forms/Slider.html" class="menu-link">Slider</a></li><li class="menu-item"><a href="../../Forms/Spinner.html" class="menu-link">Spinner</a></li><li class="menu-item"><a href="../../Forms/Uploader.html" class="menu-link">Uploader</a></li><li class="menu-item"><a href="../../Forms/Steps.html" class="menu-link">Steps</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-chart-pie"></span><span class="menu-text">Charts</span></a><ul class="menu"><li class="menu-item"><a href="../../Charts/ChartJs.html" class="menu-link">Chart Js</a></li><li class="menu-item"><a href="../../Charts/MorrisCharts.html" class="menu-link">Morris Charts</a></li><li class="menu-item"><a href="../../Charts/FlotCharts.html" class="menu-link">Flot Charts</a></li><li class="menu-item"><a href="../../Charts/HighchartTable.html" class="menu-link">Highchart Table</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user"></span><span class="menu-text">User</span></a><ul class="menu"><li class="menu-item"><a href="../../User/UserProfile.html" class="menu-link">User Profile</a></li><li class="menu-item"><a href="../../User/Tasks.html" class="menu-link">Tasks</a></li><li class="menu-item"><a href="../../User/Projects.html" class="menu-link">Projects</a></li><li class="menu-item"><a href="../../User/Activities.html" class="menu-link">Activities</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-layer-group"></span><span class="menu-text">Pages</span></a><ul class="menu"><li class="menu-item"><a href="../../Pages/BlankPage.html" class="menu-link">Blank Page</a></li><li class="menu-item"><a href="../../Pages/Invoice.html" class="menu-link">Invoice</a></li><li class="menu-item"><a href="../../Pages/Pricing.html" class="menu-link">Pricing</a></li><li class="menu-item"><a href="../../Pages/NotFound.html" class="menu-link">404</a></li></ul><li class="menu-item"><a href="../../Components/Calendar.html" class="menu-link"><span class="menu-icon fas fa-calendar-alt"></span><span class="menu-text">Calendar</span></a></li></ul>
+
+<!-- .aside-menu -->
+<!-- /.aside-menu -->
+            </nav>
+        </aside>
+        <main role="main" class="main-content ml-sm-auto px-4">
+            
+
+<div class="page-inner">
+    <div class="page-title">
+        <div class="d-md-flex align-items-md-start">
+            <h5 class="page-title mr-sm-auto"> Manage Employee </h5>
+        </div>
+    </div>
+    <section class="card card-fluid">
+        <div class="card-body">
+            <form action="https://one.encodeinfotech.com/Masters/Employees/Manage" method="post">
+                <div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                <input type="hidden" data-val="true" data-val-required="The ID field is required." id="ID" name="ID" value="0" />
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea class="d-none" id="Photo" name="Photo">
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAYFBMVEX////e3t6vr697e3t&#x2B;fn7Q0NCsrKx3d3e8vLy3t7fOzs7AwMC2traxsbHS0tLFxcXo6Ojv7&#x2B;/39/fz8/Pd3d2enp7q6upxcXGDg4OUlJSLi4uPj4&#x2B;np6eNjY2goKBubm7&#x2B;vmLLAAANAElEQVR4nO2di5KiOhCGwUSDoCEEiICXff&#x2B;3PN25EUQ9urWOOJW/amsVwenP7nTnJiZJVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVNQ3qFagWn7ajLdJNhzUNGkqRPUbMRWfqGlE9bvcmfJrrdfAmaq6lvIXkMo5YMgplAKHfjOnaYJ3IQ1mg&#x2B;3zSwO3fsTnfYmYpn1&#x2B;HWWlzX9WOYoj59eAqlf4tPQnknP1acuflAfkHL3zAueX&#x2B;FA4exUUBZU23IShJ50gh094/WnTn5JsDE/u7JV1XSEntw3urr7Eg5Jbe5uJvRIohRCPQJvvAKyd&#x2B;enNlxFUKdFwPgMUP2zpX6rOHwJaSQ0q0pDzS7Jo/ZJDZKWaLwOsyhcjTjjA6q12/TOJVx2SltOsu3Q1xt5y/aRDZOMAvyOJJrwE5WX5rEMqfQGoea9d/0oSnPeSvcKeXz7MustRXb5ob&#x2B;ou&#x2B;JIyWL0K2LgLviSJqlcd4ppg/iU5Jn3VIR7wrWb9O3l7n0yiMv8yQGfvs1Wt8he8165/JVk&#x2B;b69U4GXhLviSMuhyTPFER40jVPrCBZ&#x2B;VVJhWRGEV2ntrwqzmZVFAKeHugp&#x2B;y828kZSXSNMXCkDp7gyRa8fU1Yd0AXlF&#x2B;B2CtBOKlDQI2zt4xiYq8KK5mI8Qa&#x2B;Qqslbk9v/xhq5&#x2B;Uh8N/GJXOIaUj0qGog9FLGbzFA0ql2UYprGrWXtsvkalj8W2y8kFZQGdA2teL9cc47khe0YEq7Ilae02VqNYexhb&#x2B;ipfFeEyOSWlxVaKa8aW6qhlzM90TFfkIk&#x2B;nKD69n46EmaLOLG0uoZgYoxySaKR2LWQCYNbWYHCmy9GZSWohmgDqJppkRlEGZu8fu/9I9coIruD2hWNxYYhaiOok2DqbyDx9IGUBUuTjAOr12IZZ2b2&#x2B;d5PewJoDurAWOBmdZtE7GsIScWf4vH3wKtTtrgWMJdQOw8vbKRDe47QO&#x2B;LZQ&#x2B;5ZrlAmecZo0QgkxlWy0sAPbhA2GVcBcsrkpgJ2UqAYBiO9r7v3y7OpHcAi5ysDTvqCVi5wHlU4C5fVgurgwm142wwSSaWkDol6gd6iGhRMCdAVxeEp01Ql0ldkY4pZbCmCHbIuTulra7DABL&#x2B;2yRM05X3W2sEs5eHXEwDFa4ZJ1b0GuB16rCPl5glUjGGG0cYO3szYNtPVLqMSNfI&#x2B;Z&#x2B;v/eAa&#x2B;zZ2ceLG0to1ddJtHKOyso85&#x2B;k0M5rFeQhcw7lHr3F7wXaBZTC5KhS6SmgP7ffGT5BrirLMm3Q6x10r0ei4xY6aOXmfLXRdQl0BNpZuIiTNytJsRxuTpcRmWtpzljrjFOZRjMf1HG/k3MJ4SW&#x2B;7U2PzLBYOGDZCDLJy9YDQ&#x2B;7Mo9X5RnNbO7NEFzjhpST&#x2B;jZgCLh2yj8HMAh&#x2B;ali&#x2B;hFlkFU0AixDG5X/&#x2B;9CD4lyT5ZZJZJJIwRAZax&#x2B;XfsFjiWMxkaISTTdP&#x2B;9A60UbsUvsiWqNvTX0Af9LB672n&#x2B;a4LxejesYpX/1ljO4&#x2B;jXFfMmiCSbl5jWuzMhdssk9j3NcEsNh4mx3C5gnmzWaxVSIZCwWmiXKDQkin8dFDLbZKJKML9cLD7oR6DirQarFVIvGAwq6W4XCo2O2f9JzVfokTMl5i9KBVbcfx292TnLvFlkFUNfa1J5J68bfJi&#x2B;1q8zhuT0vtahu5zsyd75Lh5vNKpGW222xOt5voaclJ9GrqSQih7nxpTlYC4rbAuA054f/TMmecvGZrFBrzLqdK&#x2B;TqHRLQaHbrkJJpcTT1NOQHzDmet0qaBBrpbnTYLXDmb6HqN4krqgfnQPsUkAS9SN7ZbBE78vu93znVjv4WN0EUX8Od1K0Yhmf4C1zn9Wtc5TRrhr2h1V6rHwPx9cFri1yTMO4J69qU3NYiKioqKioqKioqKioqKioqKioqKivp9KvPcf3OK52XwXQjB85yL2UIS3rzRbiuo9C0Z3QsK32q8vubhi&#x2B;5igffJ443dWFQHt3l810r&#x2B;H8YOW/u4Zwe/p6VZ9R1h3fFyvQmkahlrzUPOQGf3wvYAbzXur28IvNhOPh9ZXo7wpowMvfmTacecyLt25h8opZ399HrCHE7WEYKmEELb6QVVS8jFPORwLSXOaQOBJ&#x2B;Pe1y3BV0O/pD0lVuxkjgzUH3rXdiEEdAaPgBtGybDK8xVYzdrJwssM0O4GbfQTD1i3hML7BWZzSuBN&#x2B;9V&#x2B;f&#x2B;qH3AGS1n6V5l1bEg&#x2B;068jAp4D5Af6w/r6RADvJZEtyAFgQeh6I9fCWdMfgVEFIX8A/f53&#x2B;APb2S0x2axgAsndv9DrQ4wlodFtxgNWRkKMNLnEkdAg/3QBwS8imJYM&#x2B;s&#x2B;5ZD899PBeMbFJGmdvkJnsyh0kH8n5AckzBSRrMARYQa/7vwhMWJoAAMAPzVoTqU5uObDgbPYbvJTvqG/Ua&#x2B;Gab038EkNJ6xyiVyQh4Gh0ILoR2cgmSYQB4AvNKSk54LbwHDwArCPIK38gdgKuGWSX4mRBlqgaPbRIPqHpijDaC2BqC8hgAXgAw7fSHAdfQOh8BIUIhN5XwyZkYhUgnm9kqMXiQZDWqetvGDQRMtkwndAuYnid5ZUMm2X4CCJEMeRZSVArtOAHAs21zLWGQXUVHTQAnDaLoR7XQqh3g8aK1eSOgSMQZfOYBeUdJ8FWHPcFTbgDKlnRrjNOdBI9BrOWMWkDVaWw811S8vHPByM9H0Lk0gK4OsuNbASHhE0iVFrCZAu7uAVY96Ti6DYIRnCkhkTgP5pT0GNYZeEhdAULvgRKTt4JC/2bACpsdxhUCCqhnq/GMC1S7m22w1oCSYStm6CnIpIMpdBvILnjn2w10k/TdnJrB9Qiatm076gDHvtN7AeEjp126HZNM6zdp15Ae&#x2B;vAuah5QaUD0O&#x2B;RPvBIBdckUPToJe5jUFgdMMj4XQ2yPgD&#x2B;QRXX8gZm7jf08Ia10vrZDi2ThvvkRMD2Tc6oT5n5FOhUAYitGvgMQ2s&#x2B;qDd4TXP/zgM2BDjZEkxJaxsoxYRINd10HgEddIQQUh0G7x4coNL1zWoFqvNoeor6b8xFA7TbX8YCP2/VeoL8ZFsUQEFI/AmK32vR8MDLxf9OizTm&#x2B;Aw55lZ1MkAaAP1LoDaDC4Y4FhOpNDyuhKgE1gpwnPZARMDc1HtOsjlUP6Pt&#x2B;0Nyg0vX68&#x2B;EdDiZKcKzix9GDZGfqonjXDVk8IPrKdx050JIO0h0aNf1awAi47kz2gcgkF4RQFrBg2E8zOsE7mD&#x2B;QD3CY0bbtO0rHMtENWt3pTX2ZAz1YQEyePmk3LTMFmF2uepAIaBoTFju0CjOkthc8iA9g4DCWNQ5VxI4YxZ4xW9bt1EGqB8nmUPsmQNb5IXnZdXSsSs2&#x2B;74bL/I521YVS40EYZxirivakT1NQ4KCHUJOOjt&#x2B;JhPGmp63LfTt07SmzN9BNj50TvfyybcRRUVFRUVFRUW9R7X5gABQshzX4SzZBzw1/mME99jfrlwU8lP6oubVv3XD9Kw58IT9BKI5&#x2B;UYu5kUS1a2HsRrrjytkoT4x17pIDY2ber/oDHerSH/2jB7sc&#x2B;pq4VNUN/SK&#x2B;ko3DOjfZZQFx4GblRk8SBkIekLlpqopRO6Gmj5qhWI4H7TvS/vNfEsJRT29vDGomyWDER7tLycsLDP3siOM&#x2B;ICVbd5Tp69fwoFRKcFyNuzGD/9MSvTfRCKcgOtOychwIawvvAg5&#x2B;DiAENE5tYKw1nQH5hNCDk5v44FjfLTBtmV0vvQdI&#x2B;pNbwA0B3agaZ9c&#x2B;fecA8CALASXE5eB/nQAH4fjkDuCB9OnBgt0AxCnuG6swP6trDzbMr1MnxoU4WX0PkFJcNevMUQ/o5kX0fEb/4Xs5ImDYBjMwdFzjRVzEv9sGD0kKDa1IbnsQZ6G6D6cZLBO9vQe/NekwBpWAGMMm9gBQbgg5VncAr9ZyPiG/sgDC5/D0ELw6mGnDB4B6DjRbNqATPr8GpHNAMgVMVnoR/Cbgfrqe&#x2B;glhG7zY32S3JrExLeC0NaYc6VIJKkwyCAifAsuS7hZg65YMP6frLFqAfeNPtpTMLETI/TRETVqyHsRcO9QtmQNW4Trah3QNKNi4MKQXZsy8PHB31hXK74FxgFA7WXkLsLQZ9pO6BsQ9PJ27zzJWCbOVgkNjso4tAdqc4ACxgz30xHCFPRnoBh4/3RmdddU49VZVmH8MC65lmHGDgsRqlxY8oG6is76o3hn28VsdzgDlDgjPuVAiPwcG6jXNRine&#x2B;yHGCIhbGWgAyCslmkwvEn66rz0HTGrcfUiO7REHdDuXIqpWr7H1ONZzi9wjIJSKAJD0uGyGg8LN5xdZBK7XTw/JgjCz7jUEQ/LqcrCrYZnzCnS2HWAKffSDBswPbpso65fwc8PiMgyzdiLL/fHcbq9GOmJ3OR9Pwa9JVN3ga0c2DKbX2Zza4TycL6tv&#x2B;SXXqKioqKioqKioqKioqKioqKioqKioqKioqF&#x2B;k/wDOkwRUP2EqygAAAABJRU5ErkJggg==</textarea>
+                                <input id="PhotoChanger" class="d-none" type="file" accept="image/gif, image/jpeg, image/png, image/jpg, image/bmp" />
+                                <section class="card card-figure figure-emp">
+                                    <figure class="figure">
+                                        <div class="figure-img">
+                                            <img class="img-fluid" id="emp-photo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAYFBMVEX////e3t6vr697e3t&#x2B;fn7Q0NCsrKx3d3e8vLy3t7fOzs7AwMC2traxsbHS0tLFxcXo6Ojv7&#x2B;/39/fz8/Pd3d2enp7q6upxcXGDg4OUlJSLi4uPj4&#x2B;np6eNjY2goKBubm7&#x2B;vmLLAAANAElEQVR4nO2di5KiOhCGwUSDoCEEiICXff&#x2B;3PN25EUQ9urWOOJW/amsVwenP7nTnJiZJVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVNQ3qFagWn7ajLdJNhzUNGkqRPUbMRWfqGlE9bvcmfJrrdfAmaq6lvIXkMo5YMgplAKHfjOnaYJ3IQ1mg&#x2B;3zSwO3fsTnfYmYpn1&#x2B;HWWlzX9WOYoj59eAqlf4tPQnknP1acuflAfkHL3zAueX&#x2B;FA4exUUBZU23IShJ50gh094/WnTn5JsDE/u7JV1XSEntw3urr7Eg5Jbe5uJvRIohRCPQJvvAKyd&#x2B;enNlxFUKdFwPgMUP2zpX6rOHwJaSQ0q0pDzS7Jo/ZJDZKWaLwOsyhcjTjjA6q12/TOJVx2SltOsu3Q1xt5y/aRDZOMAvyOJJrwE5WX5rEMqfQGoea9d/0oSnPeSvcKeXz7MustRXb5ob&#x2B;ou&#x2B;JIyWL0K2LgLviSJqlcd4ppg/iU5Jn3VIR7wrWb9O3l7n0yiMv8yQGfvs1Wt8he8165/JVk&#x2B;b69U4GXhLviSMuhyTPFER40jVPrCBZ&#x2B;VVJhWRGEV2ntrwqzmZVFAKeHugp&#x2B;y828kZSXSNMXCkDp7gyRa8fU1Yd0AXlF&#x2B;B2CtBOKlDQI2zt4xiYq8KK5mI8Qa&#x2B;Qqslbk9v/xhq5&#x2B;Uh8N/GJXOIaUj0qGog9FLGbzFA0ql2UYprGrWXtsvkalj8W2y8kFZQGdA2teL9cc47khe0YEq7Ilae02VqNYexhb&#x2B;ipfFeEyOSWlxVaKa8aW6qhlzM90TFfkIk&#x2B;nKD69n46EmaLOLG0uoZgYoxySaKR2LWQCYNbWYHCmy9GZSWohmgDqJppkRlEGZu8fu/9I9coIruD2hWNxYYhaiOok2DqbyDx9IGUBUuTjAOr12IZZ2b2&#x2B;d5PewJoDurAWOBmdZtE7GsIScWf4vH3wKtTtrgWMJdQOw8vbKRDe47QO&#x2B;LZQ&#x2B;5ZrlAmecZo0QgkxlWy0sAPbhA2GVcBcsrkpgJ2UqAYBiO9r7v3y7OpHcAi5ysDTvqCVi5wHlU4C5fVgurgwm142wwSSaWkDol6gd6iGhRMCdAVxeEp01Ql0ldkY4pZbCmCHbIuTulra7DABL&#x2B;2yRM05X3W2sEs5eHXEwDFa4ZJ1b0GuB16rCPl5glUjGGG0cYO3szYNtPVLqMSNfI&#x2B;Z&#x2B;v/eAa&#x2B;zZ2ceLG0to1ddJtHKOyso85&#x2B;k0M5rFeQhcw7lHr3F7wXaBZTC5KhS6SmgP7ffGT5BrirLMm3Q6x10r0ei4xY6aOXmfLXRdQl0BNpZuIiTNytJsRxuTpcRmWtpzljrjFOZRjMf1HG/k3MJ4SW&#x2B;7U2PzLBYOGDZCDLJy9YDQ&#x2B;7Mo9X5RnNbO7NEFzjhpST&#x2B;jZgCLh2yj8HMAh&#x2B;ali&#x2B;hFlkFU0AixDG5X/&#x2B;9CD4lyT5ZZJZJJIwRAZax&#x2B;XfsFjiWMxkaISTTdP&#x2B;9A60UbsUvsiWqNvTX0Af9LB672n&#x2B;a4LxejesYpX/1ljO4&#x2B;jXFfMmiCSbl5jWuzMhdssk9j3NcEsNh4mx3C5gnmzWaxVSIZCwWmiXKDQkin8dFDLbZKJKML9cLD7oR6DirQarFVIvGAwq6W4XCo2O2f9JzVfokTMl5i9KBVbcfx292TnLvFlkFUNfa1J5J68bfJi&#x2B;1q8zhuT0vtahu5zsyd75Lh5vNKpGW222xOt5voaclJ9GrqSQih7nxpTlYC4rbAuA054f/TMmecvGZrFBrzLqdK&#x2B;TqHRLQaHbrkJJpcTT1NOQHzDmet0qaBBrpbnTYLXDmb6HqN4krqgfnQPsUkAS9SN7ZbBE78vu93znVjv4WN0EUX8Od1K0Yhmf4C1zn9Wtc5TRrhr2h1V6rHwPx9cFri1yTMO4J69qU3NYiKioqKioqKioqKioqKioqKioqKivp9KvPcf3OK52XwXQjB85yL2UIS3rzRbiuo9C0Z3QsK32q8vubhi&#x2B;5igffJ443dWFQHt3l810r&#x2B;H8YOW/u4Zwe/p6VZ9R1h3fFyvQmkahlrzUPOQGf3wvYAbzXur28IvNhOPh9ZXo7wpowMvfmTacecyLt25h8opZ399HrCHE7WEYKmEELb6QVVS8jFPORwLSXOaQOBJ&#x2B;Pe1y3BV0O/pD0lVuxkjgzUH3rXdiEEdAaPgBtGybDK8xVYzdrJwssM0O4GbfQTD1i3hML7BWZzSuBN&#x2B;9V&#x2B;f&#x2B;qH3AGS1n6V5l1bEg&#x2B;068jAp4D5Af6w/r6RADvJZEtyAFgQeh6I9fCWdMfgVEFIX8A/f53&#x2B;APb2S0x2axgAsndv9DrQ4wlodFtxgNWRkKMNLnEkdAg/3QBwS8imJYM&#x2B;s&#x2B;5ZD899PBeMbFJGmdvkJnsyh0kH8n5AckzBSRrMARYQa/7vwhMWJoAAMAPzVoTqU5uObDgbPYbvJTvqG/Ua&#x2B;Gab038EkNJ6xyiVyQh4Gh0ILoR2cgmSYQB4AvNKSk54LbwHDwArCPIK38gdgKuGWSX4mRBlqgaPbRIPqHpijDaC2BqC8hgAXgAw7fSHAdfQOh8BIUIhN5XwyZkYhUgnm9kqMXiQZDWqetvGDQRMtkwndAuYnid5ZUMm2X4CCJEMeRZSVArtOAHAs21zLWGQXUVHTQAnDaLoR7XQqh3g8aK1eSOgSMQZfOYBeUdJ8FWHPcFTbgDKlnRrjNOdBI9BrOWMWkDVaWw811S8vHPByM9H0Lk0gK4OsuNbASHhE0iVFrCZAu7uAVY96Ti6DYIRnCkhkTgP5pT0GNYZeEhdAULvgRKTt4JC/2bACpsdxhUCCqhnq/GMC1S7m22w1oCSYStm6CnIpIMpdBvILnjn2w10k/TdnJrB9Qiatm076gDHvtN7AeEjp126HZNM6zdp15Ae&#x2B;vAuah5QaUD0O&#x2B;RPvBIBdckUPToJe5jUFgdMMj4XQ2yPgD&#x2B;QRXX8gZm7jf08Ia10vrZDi2ThvvkRMD2Tc6oT5n5FOhUAYitGvgMQ2s&#x2B;qDd4TXP/zgM2BDjZEkxJaxsoxYRINd10HgEddIQQUh0G7x4coNL1zWoFqvNoeor6b8xFA7TbX8YCP2/VeoL8ZFsUQEFI/AmK32vR8MDLxf9OizTm&#x2B;Aw55lZ1MkAaAP1LoDaDC4Y4FhOpNDyuhKgE1gpwnPZARMDc1HtOsjlUP6Pt&#x2B;0Nyg0vX68&#x2B;EdDiZKcKzix9GDZGfqonjXDVk8IPrKdx050JIO0h0aNf1awAi47kz2gcgkF4RQFrBg2E8zOsE7mD&#x2B;QD3CY0bbtO0rHMtENWt3pTX2ZAz1YQEyePmk3LTMFmF2uepAIaBoTFju0CjOkthc8iA9g4DCWNQ5VxI4YxZ4xW9bt1EGqB8nmUPsmQNb5IXnZdXSsSs2&#x2B;74bL/I521YVS40EYZxirivakT1NQ4KCHUJOOjt&#x2B;JhPGmp63LfTt07SmzN9BNj50TvfyybcRRUVFRUVFRUW9R7X5gABQshzX4SzZBzw1/mME99jfrlwU8lP6oubVv3XD9Kw58IT9BKI5&#x2B;UYu5kUS1a2HsRrrjytkoT4x17pIDY2ber/oDHerSH/2jB7sc&#x2B;pq4VNUN/SK&#x2B;ko3DOjfZZQFx4GblRk8SBkIekLlpqopRO6Gmj5qhWI4H7TvS/vNfEsJRT29vDGomyWDER7tLycsLDP3siOM&#x2B;ICVbd5Tp69fwoFRKcFyNuzGD/9MSvTfRCKcgOtOychwIawvvAg5&#x2B;DiAENE5tYKw1nQH5hNCDk5v44FjfLTBtmV0vvQdI&#x2B;pNbwA0B3agaZ9c&#x2B;fecA8CALASXE5eB/nQAH4fjkDuCB9OnBgt0AxCnuG6swP6trDzbMr1MnxoU4WX0PkFJcNevMUQ/o5kX0fEb/4Xs5ImDYBjMwdFzjRVzEv9sGD0kKDa1IbnsQZ6G6D6cZLBO9vQe/NekwBpWAGMMm9gBQbgg5VncAr9ZyPiG/sgDC5/D0ELw6mGnDB4B6DjRbNqATPr8GpHNAMgVMVnoR/Cbgfrqe&#x2B;glhG7zY32S3JrExLeC0NaYc6VIJKkwyCAifAsuS7hZg65YMP6frLFqAfeNPtpTMLETI/TRETVqyHsRcO9QtmQNW4Trah3QNKNi4MKQXZsy8PHB31hXK74FxgFA7WXkLsLQZ9pO6BsQ9PJ27zzJWCbOVgkNjso4tAdqc4ACxgz30xHCFPRnoBh4/3RmdddU49VZVmH8MC65lmHGDgsRqlxY8oG6is76o3hn28VsdzgDlDgjPuVAiPwcG6jXNRine&#x2B;yHGCIhbGWgAyCslmkwvEn66rz0HTGrcfUiO7REHdDuXIqpWr7H1ONZzi9wjIJSKAJD0uGyGg8LN5xdZBK7XTw/JgjCz7jUEQ/LqcrCrYZnzCnS2HWAKffSDBswPbpso65fwc8PiMgyzdiLL/fHcbq9GOmJ3OR9Pwa9JVN3ga0c2DKbX2Zza4TycL6tv&#x2B;SXXqKioqKioqKioqKioqKioqKioqKioqKioqF&#x2B;k/wDOkwRUP2EqygAAAABJRU5ErkJggg==" alt=" ">
+                                            <div class="figure-action">
+                                                <a href="#" class="btn btn-block btn-sm btn-primary btnChangePhoto">Change Photo</a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <label class="control-label" for="EmployeeID">Employee ID</label>
+                                            <input class="form-control form-control-sm" type="text" data-val="true" data-val-required="Employee id is required" id="EmployeeID" name="EmployeeID" value="" />
+                                            <span class="text-danger field-validation-valid" data-valmsg-for="EmployeeID" data-valmsg-replace="true"></span>
+                                        </div>
+                                        <div class="col">
+                                            <label class="control-label">&nbsp;</label>
+                                            <div class="custom-control custom-checkbox custom-checkbox-middle">
+                                                <input type="checkbox" class="custom-control-input" id="Active" name="Active" value="true">
+                                                <label class="custom-control-label" for="Active">Active</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="FirstName">First Name</label>
+                                    <input class="form-control form-control-sm" type="text" data-val="true" data-val-required="First name is required" id="FirstName" name="FirstName" value="" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="LastName">Last Name</label>
+                                    <input class="form-control form-control-sm" type="text" data-val="true" data-val-required="Last name is required" id="LastName" name="LastName" value="" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="DateOfJoin">Date of Join</label>
+                                    <input type="text" class="form-control form-control-sm" data-val="true" data-val-required="The Date of Join field is required." id="DateOfJoin" name="DateOfJoin" value="01-Jan-0001" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="DateOfJoin" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="DateOfBirth">Date of Birth</label>
+                                    <input type="text" class="form-control form-control-sm" data-val="true" data-val-required="The Date of Birth field is required." id="DateOfBirth" name="DateOfBirth" value="01-Jan-0001" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="Designation">Designation</label>
+                                    <select class="form-control form-control-sm" data-val="true" data-val-required="The DesignationID field is required." id="DesignationID" name="DesignationID">
+                                        <option value="">--Select--</option>
+                                    <option value="1">Sr.Fire Protection Engineer</option>
+<option value="2">Principal Fire Safety Engineer</option>
+<option value="3">Graduate Engineer</option>
+<option value="4">Site inspector</option>
+<option value="5">Junior Fire Engineer</option>
+<option value="6">Fire Safety Engineer</option>
+<option value="7">Accountant</option>
+<option value="8">Accountant Shared Services</option>
+<option value="9">Accountant Sr.</option>
+<option value="10">Accounts Assistant</option>
+<option value="11">Accounts Executive - Shared Services</option>
+<option value="12">Accounts Manager</option>
+<option value="13">Accounts Supervisor</option>
+<option value="14">Admin Assistant</option>
+<option value="15">Admin Co-ordinator Sr.</option>
+<option value="16">Admin Manager</option>
+<option value="17">Admin Officer-Met</option>
+<option value="18">Admin. Co-ordinator</option>
+<option value="19">Admin. Officer - Chemistry</option>
+<option value="20">Administrator</option>
+<option value="21">Assistant Laboratory Technician</option>
+<option value="22">Assistant PRO</option>
+<option value="23">Assistant to Finance Manager</option>
+<option value="24">Asst Chemist</option>
+<option value="25">Asst. Sample Co ordinator</option>
+<option value="26">Asst.Laboratory.Manager</option>
+<option value="27">Bike Driver / Helper</option>
+<option value="28">Business Development Executive</option>
+<option value="29">Business Development Manager</option>
+<option value="30">Buyer</option>
+<option value="31">Calibration Engineer</option>
+<option value="32">Calibration Technician</option>
+<option value="33">Camp Supervisor</option>
+<option value="34">Chemist</option>
+<option value="35">Chemist (Specialist Testing)</option>
+<option value="36">Chemist Jr</option>
+<option value="37">Chemist Sr.</option>
+<option value="38">CMFSMS</option>
+<option value="39">Co-ordinator - Concrete</option>
+<option value="40">Compliance Engineer</option>
+<option value="41">Compliance Engineer Sr.</option>
+<option value="42">Compliance Officer</option>
+<option value="43">Consultant</option>
+<option value="44">Country Manager-Metallurgy</option>
+<option value="45">Credit Assistant</option>
+<option value="46">Credit Control &amp; I/A Manager</option>
+<option value="47">Credit control Executive</option>
+<option value="48">Credit Controller</option>
+<option value="49">Customer care Manager</option>
+<option value="50">Customer Service Representative</option>
+<option value="51">Data Entry Operator</option>
+<option value="52">Data Entry Operator/Admin Officer</option>
+<option value="53">Director - Business Development</option>
+<option value="54">Driver</option>
+<option value="55">Driver / Helper</option>
+<option value="56">Driver / Laboratory Assistant</option>
+<option value="57">Driver Sr.</option>
+<option value="58">Dy. Laboratory Manager</option>
+<option value="59">Environment Services Manager -Middle East</option>
+<option value="60">Environmental Engineer</option>
+<option value="61">Executive Secretary</option>
+<option value="62">Fabricator</option>
+<option value="63">Failure Mettalurgist</option>
+<option value="64">Fire Protection Engineer</option>
+<option value="65">Fire Safety Manager</option>
+<option value="66">Foreman - Workshop</option>
+<option value="67">General Manager</option>
+<option value="68">Graduate Fire Engineer</option>
+<option value="69">Graduate Fire Engineer</option>
+<option value="70">Hardware Engineer</option>
+<option value="71">Helper</option>
+<option value="72">HR Assistant</option>
+<option value="73">HR Coordinator</option>
+<option value="74">HR Executive</option>
+<option value="75">HR/Payroll Executive</option>
+<option value="76">Human Resources Director - Middle East/Asia</option>
+<option value="77">Instrument Engineer</option>
+<option value="78">IT Administrator</option>
+<option value="79">IT Coordinator</option>
+<option value="80">IT Engineer</option>
+<option value="81">IT Engineer</option>
+<option value="82">IT Engineer Sr.</option>
+<option value="83">IT/IS Co-Oordinator</option>
+<option value="84">IT/IS Developer</option>
+<option value="85">Jr. Accountant</option>
+<option value="86">Junior Engineer</option>
+<option value="87">Junior Sales Engineer</option>
+<option value="88">Key Account Manager</option>
+<option value="89">Lab Assistant</option>
+<option value="90">Laboraotry Mananager - Corrossion</option>
+<option value="91">Laboratory Assistant</option>
+<option value="92">Laboratory Manager - Chemistry</option>
+<option value="93">Laboratory Manager - Civils</option>
+<option value="94">Laboratory Manager - Metallurgy</option>
+<option value="95">Laboratory Manager - Site</option>
+<option value="96">Laboratory Service Representative</option>
+<option value="97">Laboratory Supervisor</option>
+<option value="98">Laboratory Supervisor - Civils</option>
+<option value="99">Laboratory Technician</option>
+<option value="100">Laboratory Technician Jr.</option>
+<option value="101">Laboratory Technician Sr.</option>
+<option value="102">Machine Operator</option>
+<option value="103">Machinist</option>
+<option value="104">Machinist Sr.</option>
+<option value="105">Manager - Government Technical Services</option>
+<option value="106">Manager -Certification Services</option>
+<option value="107">Manager-Specialist Services</option>
+<option value="108">Managing Director</option>
+<option value="109">Marketing Executive</option>
+<option value="110">Material Engineer</option>
+<option value="111">Mechanic</option>
+<option value="112">Metallurgist</option>
+<option value="113">Metallurgist Sr</option>
+<option value="114">Mettalurgical Manager</option>
+<option value="115">Microbiologist</option>
+<option value="116">NDT Manager</option>
+<option value="117">NDT Technician</option>
+<option value="118">Network Engineer</option>
+<option value="119">Night Watchman</option>
+<option value="120">Office Assistant</option>
+<option value="121">Office Boy</option>
+<option value="122">Office Clerk</option>
+<option value="123">Office Supervisor</option>
+<option value="124">Operating Finance Manager - UAE</option>
+<option value="125">Operation Supervisor-Mettallurgy</option>
+<option value="126">Operations Manager - Metallurgy</option>
+<option value="127">Operations Supervisor - Civil</option>
+<option value="128">Operations Supervisor-Metallurgy</option>
+<option value="129">PA/Senior Administrator</option>
+<option value="130">Personal Assistant</option>
+<option value="131">Pile Testing Engineer</option>
+<option value="132">Principal Consultant</option>
+<option value="133">Project Manager-Fire Resistance</option>
+<option value="134">Public Relations Officer</option>
+<option value="135">Purchacing Manager</option>
+<option value="136">Purchasing Manager</option>
+<option value="137">PWHT Technician</option>
+<option value="138">QA/QC/HSE Engineer</option>
+<option value="139">Quality and HSE Manager</option>
+<option value="140">Quality Assurance Manager</option>
+<option value="141">Quality Control Engineer</option>
+<option value="142">Radiation Safety Officer</option>
+<option value="143">Receptionist</option>
+<option value="144">Receptionist/Secretary</option>
+<option value="145">Regional Calibration Engineer</option>
+<option value="146">Regional Chemist</option>
+<option value="147">Regional Compliance Director</option>
+<option value="148">Regional Development Director</option>
+<option value="149">Regional Finance Director</option>
+<option value="150">Regional Finance Manager</option>
+<option value="151">Regional Financial Analyst</option>
+<option value="152">Regional Human Resources Manager</option>
+<option value="153">Regional IT Manager</option>
+<option value="154">Regional Manager-Chemistry/Environment</option>
+<option value="155">Regional Manager-Metallurgy/Coatings</option>
+<option value="156">Regional Onsite Services Manager</option>
+<option value="157">Regional Operations Director</option>
+<option value="158">Regional Payroll Accountant</option>
+<option value="159">Regional Recruiter</option>
+<option value="160">Regional Sales Manager-Process</option>
+<option value="161">Regional Sr. Microbiologist</option>
+<option value="162">Regional Technical Manager-Chemistry</option>
+<option value="163">Report Dispatch Coordinator</option>
+<option value="164">Reports Processing Assistant</option>
+<option value="165">Safety&amp;Technical Co.ordinator</option>
+<option value="166">Sales Assistant</option>
+<option value="167">Sales Co-Ordinator</option>
+<option value="168">Sales Manager - UAE</option>
+<option value="169">Sales Support Manager</option>
+<option value="170">Sales&amp; Marketing Director</option>
+<option value="171">Sample Co ordinator</option>
+<option value="172">Sample Logistics Manager</option>
+<option value="173">Samples Co-ordinator Sr.</option>
+<option value="174">Secretary</option>
+<option value="175">Section Head - Soil/Aggregates</option>
+<option value="176">Senior Administrator</option>
+<option value="177">Senior Environmental Engineer</option>
+<option value="178">Senior Environmental Technician</option>
+<option value="179">Senior Fire Safety Engineer</option>
+<option value="180">Shared Services Manager</option>
+<option value="181">Software Engineer</option>
+<option value="182">Specialist Chemistry</option>
+<option value="183">Specialist Organic Chemistry</option>
+<option value="184">Specialist-Microbiology</option>
+<option value="185">Sr. IT Administrator</option>
+<option value="186">Sr. IT Engineer</option>
+<option value="187">Strategic Projects Director</option>
+<option value="188">Supervisor</option>
+<option value="189">Supervisor - Report Processing</option>
+<option value="190">Supervisor - Site Laboratory</option>
+<option value="191">Support Services Administrator</option>
+<option value="192">Support Services Co-ordinator</option>
+<option value="193">Support Services Manager</option>
+<option value="194">Technical Sales Engineer</option>
+<option value="195">Technical Support Manager</option>
+<option value="196">Technican Sr.</option>
+<option value="197">Technician</option>
+<option value="198">Technician - Chemistry</option>
+<option value="199">Technician - Contracts</option>
+<option value="200">Trainee Lab Technician</option>
+<option value="201">Transport Supervisor</option>
+<option value="202">UAE Metallurgy Manager</option>
+<option value="203">Welder</option>
+<option value="204">Workshop Technician</option>
+<option value="205">Others</option>
+</select>
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="DesignationID" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="Department">Department</label>
+                                    <select class="form-control form-control-sm" data-val="true" data-val-required="The DepartmentID field is required." id="DepartmentID" name="DepartmentID">
+                                        <option value="">--Select--</option>
+                                    <option value="1">Logistics</option>
+<option value="2">Administration</option>
+<option value="3">Business Development</option>
+<option value="4">Calibration</option>
+<option value="5">Chemistry</option>
+<option value="6">Cladding</option>
+<option value="7">Civils</option>
+<option value="8">Environmental</option>
+<option value="9">Finance</option>
+<option value="10">Fire Testing</option>
+<option value="11">General Manager office</option>
+<option value="12">Human Resources</option>
+<option value="13">Health, Safety &amp; Environment</option>
+<option value="14">Internal Audit</option>
+<option value="15">IT/IS</option>
+<option value="16">Metallurgy</option>
+<option value="17">Marketing</option>
+<option value="18">Quality</option>
+<option value="19">Regional Director office</option>
+<option value="20">Purchase and Logistics</option>
+<option value="21">Met Abu Dhabi</option>
+<option value="22">Fire Consulting</option>
+<option value="23">Sales</option>
+<option value="24">Certification and Inspection</option>
+</select>
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="DepartmentID" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="CountryCode">Country</label>
+                                    <select class="form-control form-control-sm" id="CountryCode" name="CountryCode">
+                                        <option value="">--Select--</option>
+                                    <option value="1">Afghanistan</option>
+<option value="2">Angola</option>
+<option value="3">Albania</option>
+<option value="4">Andorra</option>
+<option value="5">United Arab Emirates</option>
+<option value="6">Argentina</option>
+<option value="7">Armenia</option>
+<option value="8">Antigua and Barbuda</option>
+<option value="9">Australia</option>
+<option value="10">Austria</option>
+<option value="11">Azerbaijan</option>
+<option value="12">Burundi</option>
+<option value="13">Belgium</option>
+<option value="14">Benin</option>
+<option value="15">Burkina Faso</option>
+<option value="16">Bangladesh</option>
+<option value="17">Bulgaria</option>
+<option value="18">Bahrain</option>
+<option value="19">Bahamas</option>
+<option value="20">Bosnia and Herzegovina</option>
+<option value="21">Belarus</option>
+<option value="22">Belize</option>
+<option value="23">Bermuda</option>
+<option value="24">Bolivia</option>
+<option value="25">Brazil</option>
+<option value="26">Barbados</option>
+<option value="27">Brunei</option>
+<option value="28">Bhutan</option>
+<option value="29">Myanmar (Burma)</option>
+<option value="30">Botswana</option>
+<option value="31">Central African Republic</option>
+<option value="32">Canada</option>
+<option value="33">Switzerland</option>
+<option value="34">Chile</option>
+<option value="35">China</option>
+<option value="36">Cameroon</option>
+<option value="37">Colombia</option>
+<option value="38">Comoros</option>
+<option value="39">Cape Verde</option>
+<option value="40">Costa Rica</option>
+<option value="41">Cuba</option>
+<option value="42">Cyprus</option>
+<option value="43">Czech Republic</option>
+<option value="44">Germany</option>
+<option value="45">Djibouti</option>
+<option value="46">Denmark</option>
+<option value="47">Dominican Republic</option>
+<option value="48">Algeria</option>
+<option value="49">Ecuador</option>
+<option value="50">Egypt</option>
+<option value="51">Eritrea</option>
+<option value="52">Spain</option>
+<option value="53">Estonia</option>
+<option value="54">Ethiopia</option>
+<option value="55">Finland</option>
+<option value="56">Fiji</option>
+<option value="57">France</option>
+<option value="58">Micronesia</option>
+<option value="59">Gabon</option>
+<option value="60">United Kingdom</option>
+<option value="61">Georgia</option>
+<option value="62">Ghana</option>
+<option value="63">Guinea</option>
+<option value="64">Guinea-Bissau</option>
+<option value="65">Equatorial Guinea</option>
+<option value="66">Greece</option>
+<option value="67">Grenada</option>
+<option value="68">Greenland</option>
+<option value="69">Guatemala</option>
+<option value="70">Guyana</option>
+<option value="71">Hong Kong</option>
+<option value="72">Honduras</option>
+<option value="73">Croatia</option>
+<option value="74">Haiti</option>
+<option value="75">Hungary</option>
+<option value="76">Indonesia</option>
+<option value="77">India</option>
+<option value="78">Ireland</option>
+<option value="79">Iran</option>
+<option value="80">Iraq</option>
+<option value="81">Iceland</option>
+<option value="82">Israel</option>
+<option value="83">Italy</option>
+<option value="84">Jamaica</option>
+<option value="85">Jordan</option>
+<option value="86">Japan</option>
+<option value="87">Kazakhstan</option>
+<option value="88">Kenya</option>
+<option value="89">Kyrgyzstan</option>
+<option value="90">Cambodia</option>
+<option value="91">Kiribati</option>
+<option value="92">South Korea</option>
+<option value="93">Kuwait</option>
+<option value="94">Laos</option>
+<option value="95">Lebanon</option>
+<option value="96">Liberia</option>
+<option value="97">Libya</option>
+<option value="98">Saint Lucia</option>
+<option value="99">Liechtenstein</option>
+<option value="100">Sri Lanka</option>
+<option value="101">Lithuania</option>
+<option value="102">Luxembourg</option>
+<option value="103">Latvia</option>
+<option value="104">Morocco</option>
+<option value="105">Monaco</option>
+<option value="106">Moldova</option>
+<option value="107">Maldives</option>
+<option value="108">Mexico</option>
+<option value="109">Marshall Islands</option>
+<option value="110">Macedonia</option>
+<option value="111">Mali</option>
+<option value="112">Malta</option>
+<option value="113">Burma (Myanmar)</option>
+<option value="114">Mongolia</option>
+<option value="115">Mozambique</option>
+<option value="116">Mauritania</option>
+<option value="117">Mauritius</option>
+<option value="118">Malawi</option>
+<option value="119">Malaysia</option>
+<option value="120">Namibia</option>
+<option value="121">Niger</option>
+<option value="122">Nigeria</option>
+<option value="123">Nicaragua</option>
+<option value="124">Netherlands</option>
+<option value="125">Norway</option>
+<option value="126">Nepal</option>
+<option value="127">Nauru</option>
+<option value="128">New Zealand</option>
+<option value="129">Sultanate of Oman</option>
+<option value="130">Palestinian</option>
+<option value="131">Pakistan</option>
+<option value="132">Panama</option>
+<option value="133">Peru</option>
+<option value="134">Philippines</option>
+<option value="135">Palau</option>
+<option value="136">Papua New Guinea</option>
+<option value="137">Poland</option>
+<option value="138">North Korea</option>
+<option value="139">Portugal</option>
+<option value="140">Paraguay</option>
+<option value="141">Qatar</option>
+<option value="142">Romania</option>
+<option value="143">Russia</option>
+<option value="144">Rwanda</option>
+<option value="145">Saudi Arabia</option>
+<option value="146">Sudan</option>
+<option value="147">Senegal</option>
+<option value="148">Singapore</option>
+<option value="149">Solomon Islands</option>
+<option value="150">Sierra Leone</option>
+<option value="151">El Salvador</option>
+<option value="152">San Marino</option>
+<option value="153">Somalia</option>
+<option value="154">Serbia</option>
+<option value="155">Sao Tome and Principe</option>
+<option value="156">Suriname</option>
+<option value="157">Slovakia</option>
+<option value="158">Slovenia</option>
+<option value="159">Sweden</option>
+<option value="160">Swaziland</option>
+<option value="161">Seychelles</option>
+<option value="162">Syria</option>
+<option value="163">Chad</option>
+<option value="164">Togo</option>
+<option value="165">Thailand</option>
+<option value="166">Tajikistan</option>
+<option value="167">Turkmenistan</option>
+<option value="168">Tonga</option>
+<option value="169">Trinidad and Tobago</option>
+<option value="170">Tunisia</option>
+<option value="171">Turkey</option>
+<option value="172">Tuvalu</option>
+<option value="173">Taiwan</option>
+<option value="174">Tanzania</option>
+<option value="175">Uganda</option>
+<option value="176">Ukraine</option>
+<option value="177">Uruguay</option>
+<option value="178">United States</option>
+<option value="179">Uzbekistan</option>
+<option value="180">Saint Vincent and the Grenadines</option>
+<option value="181">Venezuela</option>
+<option value="182">British Virgin Islands</option>
+<option value="183">Vietnam</option>
+<option value="184">Samoa</option>
+<option value="185">Yemen</option>
+<option value="186">South Africa</option>
+<option value="187">Zambia</option>
+<option value="188">Zimbabwe</option>
+</select>
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="CountryCode" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="control-label" for="EmailID">Email ID</label>
+                                    <input class="form-control form-control-sm" type="text" id="EmailID" name="EmailID" value="" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="EmailID" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="control-label" for="PhoneNumber">Phone Number</label>
+                                <input class="form-control form-control-sm" type="text" id="PhoneNumber" name="PhoneNumber" value="" />
+                                <span class="text-danger field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label" for="Address">Address</label>
+                                    <textarea rows="3" class="form-control form-control-sm" id="Address" name="Address">
+</textarea>
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group text-right">
+                            <button type="submit" value="Save" class="btn btn-sm btn-primary btnSave">
+                                <i class="far fa-save"></i> Save
+                            </button>
+                            <a class="btn btn-sm btn-outline-info" href="../Employees.html">
+                                <i class="fas fa-long-arrow-alt-left"></i> Back to List
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8LFfSDku6V1FiUhAwB3D0enogJjRIb7VANV0WLTFgLQPDsHI9lkePdg7clMkS-m7jg5PG6vqc6Q-rs_vFq-xb6JIXqPBNS5thL-C9AFjUzlD_dIqfKiU5QZnCl3MXiygfHquxwCAJQ3qRo35qiRDLjI" /><input name="Active" type="hidden" value="false"></form>
+        </div>
+    </section>
+</div>
+<!--Adding necessary styles to header using section-->
+
+
+<!--Adding necessary scripts to the scripts section-->
+
+            <footer class="page-footer margin-free">
+    <div class="row">
+        <div class="col-sm-6">
+            © 2018 Encode Themes. All rights reserved
+        </div>
+        <div class="col-sm-6 text-right">
+            <a href="#" data-et-action="scroll-top" title="Scroll Top"><span class="go-top"><i class="fas fa-chevron-up"></i></span></a>
+        </div>
+    </div>
+</footer>
+        </main>
+    </div>
+    <!--Remove the following line if you are not required cookie consent-->
+    
+<script>var cookieString = "";</script>
+
+    <div id="infoModalSm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Other Languages </h5>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        You can integrate any language using very easy method. We are used resources file to achive this.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This is added only for Demo purpose. Remove this when you suing to your application -->
+    <div class="settings card" id="settings">
+    <button class="btn btn-default btnSettingsToggle"><i class="fas fa-cog fa-spin"></i></button>
+    <div class="card-header card-header-white">Theme Selector</div>
+    <div class="card-body">
+        <ul id="themecolors" class="m-t-20">
+
+            <li><a href="javascript:void(0)" data-theme="one" class="choose-theme theme-one-icon active">1</a></li>
+            <li><a href="javascript:void(0)" data-theme="two" class="choose-theme theme-two-icon ">2</a></li>
+            <li><a href="javascript:void(0)" data-theme="three" class="choose-theme theme-three-icon ">3</a></li>
+            <li><a href="javascript:void(0)" data-theme="four" class="choose-theme theme-four-icon ">4</a></li>
+            <li><a href="javascript:void(0)" data-theme="five" class="choose-theme theme-five-icon ">5</a></li>
+            <li><a href="javascript:void(0)" data-theme="six" class="choose-theme theme-six-icon ">6</a></li>
+            <li><a href="javascript:void(0)" data-theme="seven" class="choose-theme theme-seven-icon ">7</a></li>
+            <li><a href="javascript:void(0)" data-theme="eight" class="choose-theme theme-eight-icon ">8</a></li>
+        </ul>
+        <h6 class="mt-2 mb-2">Multi Language</h6>
+        <div class="m-1">
+            <a class="btn btn-block btn-outline-primary btn-sm changeCulture" culture="ar">RTL Arabic</a>
+            <a class="btn btn-block btn-outline-primary btn-sm changeCulture mt-2" culture="zh">Chinese</a>
+        </div>
+    </div>
+</div>
+
+    
+
+    
+        <script src="../../../ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js" crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022\/lib\/jquery\/dist\/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV\u002BrXbYlF2cqB8txI\/8aZajjp4Bqd\u002BV6D5IgvKT\u0022\u003E\u003C\/script\u003E"));</script>
+        <script src="../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="../../../stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="../../js/custom.js"></script>
+        <!--Remove demo.js from your development-->
+        <script src="../../js/demo.js"></script>
+    
+
+    
+
+
+    <script src="../../../ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp">
+    </script>
+<script>(window.jQuery && window.jQuery.validator||document.write("\u003Cscript src=\u0022\/lib\/jquery-validation\/dist\/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-rZfj\/ogBloos6wzLGpPkkOr\/gpkBNLZ6b6yLy4o\u002Bok\u002Bt\/SAKlL5mvXLr0OXNi1Hp\u0022\u003E\u003C\/script\u003E"));</script>
+    <script src="../../../ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js" crossorigin="anonymous" integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds">
+    </script>
+<script>(window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive||document.write("\u003Cscript src=\u0022\/lib\/jquery-validation-unobtrusive\/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv\/Av18DXE43N\/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C\/script\u003E"));</script>
+
+    <script src="../../lib/flatpickr/flatpickr.js"></script>
+    <script>
+        $(document).ready(function () {
+            flatpickr("#DateOfJoin, #DateOfBirth", {
+                dateFormat: "d-M-Y"
+            });
+            $(".btnChangePhoto").click(function () {
+                $("#PhotoChanger").click();
+            });
+            $("#PhotoChanger").change(function (e) {
+                if (e.target.files[0]) {
+                    var reader = new FileReader();
+                    reader.readAsDataURL(e.target.files[0]);
+                    reader.onload = function (x) {
+                        $("#Photo").val(x.target.result)
+                        $("#emp-photo").attr('src', x.target.result);
+                    };
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        var menuList = [{id: "/", name: "Dashboard"}, {id: "/Masters/Employees", name: "Employee Master"}, {id: "/Masters/Designations", name: "Designation Master"}, {id: "/Masters/Departments", name: "Department Master"}, {id: "/Masters/Countries", name: "Country Master"}, {id: "/Identity/Account/Manage", name: "Manage"}, {id: "/Identity/Account/Login", name: "Login"}, {id: "/Identity/Account/Register", name: "Registration"}, {id: "/Identity/Account/ForgotPassword", name: "Forgot Password"}, {id: "/Components/GeneralElements", name: "General Elements"}, {id: "/Components/FontIconsOpenIconic", name: "Font Icons (Open Iconic)"}, {id: "/Components/FontIconsFontAwsome", name: "Font Icons (Font Awsome)"}, {id: "/Components/ListViews", name: "List Views"}, {id: "/Components/TreeViews", name: "Tree Views"}, {id: "/Components/SortableNestable", name: "Sortable & Nestable"}, {id: "/Tables/HTMLTable", name: "HTML Tables"}, {id: "/Tables/DataTable", name: "Data Tables"}, {id: "/Tables/DataTableServerMode", name: "Data Tables (Server Mode)"}, {id: "/Forms/BasicElements", name: "Basic Elements"}, {id: "/Forms/InputGroup", name: "Input Group"}, {id: "/Forms/FormValidations", name: "Form Validations"}, {id: "/Forms/CustomForms", name: "Custom Forms"}, {id: "/Forms/Select2", name: "Select2"}, {id: "/Forms/Typehead", name: "Typehead"}, {id: "/Forms/Pickers", name: "Pickers"}, {id: "/Forms/HTMLEditors", name: "HTML Editors"}, {id: "/Forms/Slider", name: "Slider"}, {id: "/Forms/Spinner", name: "Spinner"}, {id: "/Forms/Uploader", name: "Uploader"}, {id: "/Forms/Steps", name: "Steps"}, {id: "/Charts/ChartJs", name: "Chart Js"}, {id: "/Charts/MorrisCharts", name: "Morris Charts"}, {id: "/Charts/FlotCharts", name: "Flot Charts"}, {id: "/Charts/HighchartTable", name: "Highchart Table"}, {id: "/User/UserProfile", name: "User Profile"}, {id: "/User/Tasks", name: "Tasks"}, {id: "/User/Projects", name: "Projects"}, {id: "/User/Activities", name: "Activities"}, {id: "/Pages/BlankPage", name: "Blank Page"}, {id: "/Pages/Invoice", name: "Invoice"}, {id: "/Pages/Pricing", name: "Pricing"}, {id: "/Pages/NotFound", name: "404"}, {id: "/Components/Calendar", name: "Calendar"}];
+    </script>
+
+    
+
+    
+        <script src="../../js/site.minffd1.js?v=atC4TOe3Wp4eKt_eGqit28cev37CwYwW1lmJPl6GCIY"></script>
+    
+
+    <script>
+        toastr.options.closeButton = true;
+        toastr.options.progressBar = true;
+    </script>
+    <!-- Remove this if your are not using any analytics scripts -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124210170-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124210170-1');
+    </script>
+
+</body>
+
+<!-- Mirrored from one.encodeinfotech.com/Masters/Employees/Manage by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Nov 2018 18:41:33 GMT -->
+</html>
