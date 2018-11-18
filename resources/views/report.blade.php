@@ -43,41 +43,38 @@
               <h4 class="text-primary">VIEW</h4>
               <button class="close" data-dismiss="modal">&times;</button>
             </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4">
-                  <img src="{{asset('images/sanitation (1).jpg')}}"  class="rounded-circle" height="200" width="200" alt="attachment">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="container">
+              <div class="modal-body">
+                  <img src="{{asset('images/sanitation (1).jpg')}}" height="300" width="100%" alt="attachment" class="mb-3">
                   <form class="" action="" method="post">
-                    <div class="row form-group mr-3 mb-2">
-                        <label for="Full Name" class="form-label">Full Name</label>
-                        <input type="text" name="" class="form-control" value="">
-                    </div>
-                    <div class="row form-group mr-3 mb-2">
-                        <label for="Contact" class="form-label">Contact</label>
-                        <input type="contact" name="" class="form-control" value="">
-                    </div>
-                    <div class="row form-group mr-3 mb-2">
-                        <label for="Email" class="form-label">Email</label>
-                        <input type="email" name="" class="form-control" value="">
-                    </div>
-                    <div class="row form-group mr-3 mb-2">
-                        <label for="" class="form-label">Location</label>
-                        <input type="text" name="" class="form-control" value="">
-                    </div>
-                    <div class="row form-group mr-3 mb-2">
-                        <label for="Description" class="form-label">Description</label>
-                        <textarea name="description" class="form-control" rows="5" cols="50"></textarea>
-                    </div>
-                    <div class="form-group row d-flex flex-row justify-content-end mr-3">
-                      <button type="submit" name="button" class="btn btn-success mr-2">Submit</button>
-                      <button type="submit" name="button" class="btn btn-success">Edit</button>
-                    </div>
-                  </form>
-                </div>
+                      <div class="row form-group mb-2">
+                          <label for="Full Name" class="form-label">Full Name</label>
+                          <input type="text" name="full_name" class="form-control" value="">
+                      </div>
+                      <div class="row form-group mb-2">
+                          <label for="Contact" class="form-label">Contact</label>
+                          <input type="contact" name="contact" class="form-control" value="">
+                      </div>
+                      <div class="row form-group mb-2">
+                          <label for="Email" class="form-label">Email</label>
+                          <input type="email" name="email" class="form-control" value="">
+                      </div>
+                      <div class="row form-group mb-2">
+                          <label for="Location" class="form-label">Location</label>
+                          <input type="text" name="" class="form-control" value="">
+                      </div>
+                      <div class="row form-group mb-2">
+                          <label for="Description" class="form-label">Description</label>
+                          <textarea name="description" class="form-control" rows="5" cols="50"></textarea>
+                      </div>
+                      <div class="form-group row d-flex flex-row justify-content-end mr-3">
+                        <button type="submit" name="button" class="btn btn-success mr-2">Submit</button>
+                        <button type="submit" name="button" class="btn btn-success">Edit</button>
+                      </div>
+                    </form>
               </div>
             </div>
+
           </div>
         </div>
       </div>
