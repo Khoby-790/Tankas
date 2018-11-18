@@ -13,3 +13,8 @@
 
 //route for main page
 Route::get('/', 'Viewcontroller@index');
+Route::get('profile', 'Viewcontroller@profile');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
