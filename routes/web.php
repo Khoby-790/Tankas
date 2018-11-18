@@ -15,8 +15,11 @@
 Route::get('/',function(){
   return view('auth.login');
 });
-Route::get('/dashboard', 'Viewcontroller@index')->name('dashboard');
-Route::get('profile', 'Viewcontroller@profile');
+Route::get('/dashboard', 'Viewcontroller@index')->name('/dashboard');
+Route::get('profile', 'Viewcontroller@profile')->name('profile');
+Route::get('report', 'Viewcontroller@report')->name('report');
+Route::get('client', 'Viewcontroller@client')->name('client');
+Route::get('area', 'Viewcontroller@client')->name('area');
 
 Auth::routes();
 

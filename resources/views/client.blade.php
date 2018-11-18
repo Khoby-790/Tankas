@@ -55,19 +55,19 @@
                   <form class="" action="" method="post">
                     <div class="row form-group mr-3 mb-2">
                         <label for="Full Name" class="form-label">Full Name</label>
-                        <input type="text" name="" class="form-control" value="">
+                        <input type="text" name="full_name" class="form-control" value="">
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Contact" class="form-label">Contact</label>
-                        <input type="contact" name="" class="form-control" value="">
+                        <input type="contact" name="contact" class="form-control" value="">
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Email" class="form-label">Email</label>
-                        <input type="email" name="" class="form-control" value="">
+                        <input type="email" name="email" class="form-control" value="">
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="" class="form-label">Location</label>
-                        <input type="text" name="" class="form-control" value="">
+                        <input type="text" name="location" class="form-control" value="">
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Description" class="form-label">Description</label>

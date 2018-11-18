@@ -19,7 +19,7 @@
     <div class="card mb-4">
         <div class="card-body">
             <div class="d-flex align-items-center">
-                <i class="fas fa-shopping-cart display-5 text-success"></i>
+                <i class="fas fa-user display-5 text-success"></i>
                 <div class="ml-3">
                     <div class="text-muted small">Total Clients</div>
                     <div class="text-large">2362</div>
@@ -33,7 +33,7 @@
     <div class="card mb-4">
         <div class="card-body">
             <div class="d-flex align-items-center">
-                <i class="fas fa-globe display-5 text-info"></i>
+                <i class="fas fa-file display-5 text-info"></i>
                 <div class="ml-3">
                     <div class="text-muted small">Processed Reports</div>
                     <div class="text-large">687,123</div>
@@ -93,8 +93,7 @@
     </div>
 </div>
 </div>
-<div class="row">
-<div class="col-md-6">
+
     <div class="card card-fluid">
         <header class="card-header card-header-white"> My Subordinates </header>
                 <div class="list-group list-group-flush">
@@ -137,10 +136,6 @@
                     </a>
                 </div>
     </div>
-</div>
-<div class="col-md-6">
-</div>
-</div>
 
         <footer class="page-footer margin-free">
 <div class="row">
