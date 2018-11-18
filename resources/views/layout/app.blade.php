@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tankas - Home</title>
+    <title>Tankas</title>
     <meta name="description" content="High performance admin theme for .net core with all features like bootstrap 4, entity framework and.net identity. This theme can be used for any kind of application Home" />
     <meta name="news_keywords" content="bootstrap 4, admin template, admin theme, .net core admin theme" />
 
@@ -20,10 +20,113 @@
   </head>
   <body>
 
+    <header class="navbar navbar-collapse navbar-dark fixed-top flex-md-nowrap p-0 main-header">
+        <div class="navbar-brand mr-0">
+            <button class="btn btn-link d-xl-none" data-et-action="aside-open" data-et-target=".sidebar" p-0 ml-1" id="btnmenu">
+                <i class="fas fa-align-justify"></i>
+            </button>
+            <a class="d-none d-md-block" href="{{asset('index')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
+        </div>
+        <div class="container-nav-bar">
+            <ul class="nav justify-content-end navbar-right">
+                <li class="dropdown nav-item has-notified">
+                    <a href="#" class="dropdown" data-toggle="dropdown">
+                        <i class="far fa-comment-alt"></i>
+                        <span class="d-none d-md-block d-lg-block d-xl-block">MESSAGES</span>
+                    </a>
+                    <div class="dropdown-arrow"></div>
+                    <div class="dropdown-menu dropdown-menu-rich dropdown-menu-right">
+                        <h6 class="dropdown-header stop-propagation">
+                            <span>
+                                Activities
+                                <span class="badge badge-pill badge-danger">2</span>
+                            </span>
+                        </h6>
+                        <div class="dropdown-scroll has-scrollable ps">
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="images/avatars/employee-1.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Jeffrey Wells created a schedule </p>
+                                    <span class="date small">Just now</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="images/avatars/employee-2.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Fuller Andrew sent an email </p>
+                                    <span class="date small">2 minutes ago</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="images/avatars/employee-3.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Peacock Margaret uploaded reports</p>
+                                    <span class="date small">2 hours ago</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item unread">
+                                <div class="user-avatar">
+                                    <img src="images/avatars/employee-4.png" alt="">
+                                </div>
+                                <div class="dropdown-item-body">
+                                    <p class="text"> Callahan Laura on Leave</p>
+                                    <span class="date small">2 days ago</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
 
-<main>
-  @yield('content')
-</main>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown btn-user" data-toggle="dropdown">
+                        <span class="user-avatar">
+                            <img src="images/user-profile.png" alt="">
+                        </span>
+                        <span class="profile-summary pr-lg-2 d-none d-lg-block">
+                            <span class="profile-name">John Heart</span>
+                            <span class="profile-description">Customer Service</span>
+                        </span>
+                    </a>
+                    <div class="dropdown-arrow"></div>
+                    <div class="dropdown-menu dropdown-menu-right mr-2">
+                        <a class="dropdown-item" href="User/UserProfile.html">
+                            <i class="far fa-user"></i> Profile
+                        </a>
+                        <a class="dropdown-item" href="index.html">
+                            <i class="fas fa-sign-in-alt"></i> Logout
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                        <a class="dropdown-item" href="#">Ask Forum</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+      <aside id="menu" class="bg-light sidebar">
+          <div class="search-form">
+              <input id="menuSearch" class="form-control form-control-sm w-100" type="text" placeholder="Search menu" aria-label="Search">
+          </div>
+          <nav id="slide-menu" class="slide-menu slide-menu-has-collapsible do-scroll">
+
+  <ul class="menu"><li class="menu-item has-active"><a href="index.html" class="menu-link"><span class="menu-icon fa fa-tachometer-alt"></span><span class="menu-text">Dashboard</span></a></li><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fa fa-database"></span><span class="menu-text">Entity Framework</span><span class="badge badge-warning" id="badgeCrud">CRUD</span></a><ul class="menu"><li class="menu-item"><a href="Masters/Employees.html" class="menu-link">Employee Master</a></li><li class="menu-item"><a href="Masters/Designations.html" class="menu-link">Designation Master</a></li><li class="menu-item"><a href="Masters/Departments.html" class="menu-link">Department Master</a></li><li class="menu-item"><a href="Masters/Countries.html" class="menu-link">Country Master</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user-cog"></span><span class="menu-text">.Net Identity Custom</span><span class="badge badge-success" id="badgeNew">New</span></a><ul class="menu"><li class="menu-item"><a href="Identity/Account/Login6ee2.html" class="menu-link">Manage</a></li><li class="menu-item"><a href="Identity/Account/Login.html" class="menu-link">Login</a></li><li class="menu-item"><a href="Identity/Account/Register.html" class="menu-link">Registration</a></li><li class="menu-item"><a href="Identity/Account/ForgotPassword.html" class="menu-link">Forgot Password</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fa fa-puzzle-piece"></span><span class="menu-text">HTML Components</span></a><ul class="menu"><li class="menu-item"><a href="Components/GeneralElements.html" class="menu-link">General Elements</a></li><li class="menu-item"><a href="Components/FontIconsOpenIconic.html" class="menu-link">Font Icons (Open Iconic)</a></li><li class="menu-item"><a href="Components/FontIconsFontAwsome.html" class="menu-link">Font Icons (Font Awsome)</a></li><li class="menu-item"><a href="Components/ListViews.html" class="menu-link">List Views</a></li><li class="menu-item"><a href="Components/TreeViews.html" class="menu-link">Tree Views</a></li><li class="menu-item"><a href="Components/SortableNestable.html" class="menu-link">Sortable & Nestable</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-table"></span><span class="menu-text">Tables</span></a><ul class="menu"><li class="menu-item"><a href="Tables/HTMLTable.html" class="menu-link">HTML Tables</a></li><li class="menu-item"><a href="Tables/DataTable.html" class="menu-link">Data Tables</a></li><li class="menu-item"><a href="Masters/Employees.html" class="menu-link">Data Tables (Server Mode)</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fab fa-wpforms"></span><span class="menu-text">Forms</span></a><ul class="menu"><li class="menu-item"><a href="Forms/BasicElements.html" class="menu-link">Basic Elements</a></li><li class="menu-item"><a href="Forms/InputGroup.html" class="menu-link">Input Group</a></li><li class="menu-item"><a href="Forms/FormValidations.html" class="menu-link">Form Validations</a></li><li class="menu-item"><a href="Forms/CustomForms.html" class="menu-link">Custom Forms</a></li><li class="menu-item"><a href="Forms/Select2.html" class="menu-link">Select2</a></li><li class="menu-item"><a href="Forms/Typehead.html" class="menu-link">Typehead</a></li><li class="menu-item"><a href="Forms/Pickers.html" class="menu-link">Pickers</a></li><li class="menu-item"><a href="Forms/HTMLEditors.html" class="menu-link">HTML Editors</a></li><li class="menu-item"><a href="Forms/Slider.html" class="menu-link">Slider</a></li><li class="menu-item"><a href="Forms/Spinner.html" class="menu-link">Spinner</a></li><li class="menu-item"><a href="Forms/Uploader.html" class="menu-link">Uploader</a></li><li class="menu-item"><a href="Forms/Steps.html" class="menu-link">Steps</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-chart-pie"></span><span class="menu-text">Charts</span></a><ul class="menu"><li class="menu-item"><a href="Charts/ChartJs.html" class="menu-link">Chart Js</a></li><li class="menu-item"><a href="Charts/MorrisCharts.html" class="menu-link">Morris Charts</a></li><li class="menu-item"><a href="Charts/FlotCharts.html" class="menu-link">Flot Charts</a></li><li class="menu-item"><a href="Charts/HighchartTable.html" class="menu-link">Highchart Table</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user"></span><span class="menu-text">User</span></a><ul class="menu"><li class="menu-item"><a href="User/UserProfile.html" class="menu-link">User Profile</a></li><li class="menu-item"><a href="User/Tasks.html" class="menu-link">Tasks</a></li><li class="menu-item"><a href="User/Projects.html" class="menu-link">Projects</a></li><li class="menu-item"><a href="User/Activities.html" class="menu-link">Activities</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-layer-group"></span><span class="menu-text">Pages</span></a><ul class="menu"><li class="menu-item"><a href="Pages/BlankPage.html" class="menu-link">Blank Page</a></li><li class="menu-item"><a href="Pages/Invoice.html" class="menu-link">Invoice</a></li><li class="menu-item"><a href="Pages/Pricing.html" class="menu-link">Pricing</a></li><li class="menu-item"><a href="Pages/NotFound.html" class="menu-link">404</a></li></ul><li class="menu-item"><a href="Components/Calendar.html" class="menu-link"><span class="menu-icon fas fa-calendar-alt"></span><span class="menu-text">Calendar</span></a></li></ul>
+
+  <!-- .aside-menu -->
+            </nav>
+      </aside>
+    </div>
+
+  <main>
+    @yield('content')
+  </main>
   </body>
   <script>
   !function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["\/lib\/font-awsome\/css\/fontawesome-all.min.css"], "rel=\u0022stylesheet\u0022 ");
