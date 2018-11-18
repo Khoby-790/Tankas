@@ -11,7 +11,7 @@
             <div class="profile-bg-img ">
               <img class="profile-bg-img img-fluid card-image" src="{{ asset('images/bg-img1.jpg') }}" alt="bg-img">
               <div class="card-block user-info card-img-overlay">
-                <div class="media mt-3 ml-3">
+                <div class="media mt-4 ml-3">
                   <div class="">
                     <a href="#" class="profile-image">
                       <img class="user-img img-radius d-flex mr-3 align-self-center rounded-circle" src="{{ asset('images/user-profile.png') }}" alt="user-img">
