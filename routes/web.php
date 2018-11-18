@@ -22,3 +22,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('api_url','APIController@api');
+Route::post('make_report','APIController@make_report');
