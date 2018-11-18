@@ -91,7 +91,7 @@
                             <img src="{{asset('images/user-profile.png')}}" alt="">
                         </span>
                         <span class="profile-summary pr-lg-2 d-none d-lg-block">
-                            <span class="profile-name">John Heart</span>
+                            <span class="profile-name">{{Auth::user()->name}}</span>
                             <span class="profile-description">Customer Service</span>
                         </span>
                     </a>
