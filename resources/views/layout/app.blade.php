@@ -28,17 +28,18 @@
   <script>
   !function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["\/lib\/font-awsome\/css\/fontawesome-all.min.css"], "rel=\u0022stylesheet\u0022 ");
   </script>
+  <script type="text/javascript" src="{{asset('js/jquery-3.2.1.js')}}"></script>
   <script>(window.jQuery||document.write("\u003Cscript src=\u0022\/lib\/jquery\/dist\/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV\u002BrXbYlF2cqB8txI\/8aZajjp4Bqd\u002BV6D5IgvKT\u0022\u003E\u003C\/script\u003E"));</script>
-  <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="../stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  <script src="js/custom.js"></script>
+  <script src="{{asset('/js/popper.min.js')}}"></script>
+  <script src="{{asset('js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('js/custom.js')}}"></script>
   <!--Remove demo.js from your development-->
-  <script src="js/demo.js"></script>
+  <script src="{{asset('js/demo.js')}}"></script>
 
 
 
-<script src="lib/chartjs/chart.min.js"></script>
-<script src="js/pages/dashboard-demo.js"></script>
+<script src="{{asset('js/chart.min.js')}}"></script>
+<script src="{{asset('js/pages/dashboard-demo.js')}}"></script>
 
 
 <script>
@@ -48,7 +49,7 @@
 
 
 
-  <script src="js/site.minffd1.js?v=atC4TOe3Wp4eKt_eGqit28cev37CwYwW1lmJPl6GCIY"></script>
+  <script src="{{asset('js/site.minffd1.js')}}"></script>
 
 
 <script>
