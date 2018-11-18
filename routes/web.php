@@ -12,8 +12,11 @@
 */
 
 //route for main page
-Route::get('/', 'Viewcontroller@index');
-Route::get('profile', 'Viewcontroller@profile');
+Route::get('/', 'Viewcontroller@index')->name('/');
+Route::get('profile', 'Viewcontroller@profile')->name('profile');
+Route::get('report', 'Viewcontroller@report')->name('report');
+Route::get('area', 'Viewcontroller@area')->name('area');
+Route::get('client', 'Viewcontroller@client')->name('client');
 
 Auth::routes();
 

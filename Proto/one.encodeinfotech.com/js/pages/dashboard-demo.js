@@ -122,11 +122,11 @@ var config = {
             label: 'Dataset 1'
         }],
         labels: [
-            'Red',
-            'Orange',
-            'Yellow',
-            'Green',
-            'Blue'
+            'red',
+            'orange',
+            'yellow',
+            'green',
+            'blue'
         ]
     },
     options: {

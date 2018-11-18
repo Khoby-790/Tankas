@@ -4,7 +4,7 @@
 
 
 <div class="container-fluid">
-    
+
     <main role="main" class="main-content ml-sm-auto px-4">
 
 <div class="mb-4">
@@ -21,7 +21,7 @@
             <div class="d-flex align-items-center">
                 <i class="fas fa-shopping-cart display-5 text-success"></i>
                 <div class="ml-3">
-                    <div class="text-muted small">Monthly sales</div>
+                    <div class="text-muted small">Total Clients</div>
                     <div class="text-large">2362</div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="d-flex align-items-center">
                 <i class="fas fa-globe display-5 text-info"></i>
                 <div class="ml-3">
-                    <div class="text-muted small">Monthly visits</div>
+                    <div class="text-muted small">Processed Reports</div>
                     <div class="text-large">687,123</div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
             <div class="d-flex align-items-center">
                 <i class="fas fa-gift display-5 text-danger"></i>
                 <div class="ml-3">
-                    <div class="text-muted small">Products</div>
+                    <div class="text-muted small">Pending Requests</div>
                     <div class="text-large">985</div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <div class="d-flex align-items-center">
                 <i class="fas fa-tasks  display-5 text-warning"></i>
                 <div class="ml-3">
-                    <div class="text-muted small">Ongoin Tasks</div>
+                    <div class="text-muted small">Ongoing Tasks</div>
                     <div class="text-large">14 <span class="oi oi-media-record pulse mr-1 text-success"></span></div>
                 </div>
             </div>
@@ -139,72 +139,12 @@
     </div>
 </div>
 <div class="col-md-6">
-    <div class="card card-fluid">
-        <header class="card-header card-header-white"> Active Tasks : To-Dos </header>
-        <div class="card-body p-3">
-            <div class="todo-list">
-                <h6> Recruitment Process (1/3) </h6>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo1">
-                        <label class="custom-control-label" for="todo1">Eat corn on the cob</label>
-                    </div>
-                </div>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo2" checked="">
-                        <label class="custom-control-label" for="todo2">Mix up a pitcher of sangria</label>
-                    </div>
-                </div>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo3">
-                        <label class="custom-control-label" for="todo3">Have a barbecue</label>
-                    </div>
-                </div>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo4">
-                        <label class="custom-control-label" for="todo4">
-                            Ride a roller coaster —
-                            <span class="text-red small">Overdue in 3 days</span>
-                        </label>
-                    </div>
-                </div>
-                <h6 class="pt-2 pb-2"> My Taks & To-Dos (1/3) </h6>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo5">
-                        <label class="custom-control-label" for="todo5">Bring a blanket and lie on the grass at an outdoor concert</label>
-                    </div>
-                </div>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo6">
-                        <label class="custom-control-label" for="todo6">Collect seashells at the beach</label>
-                    </div>
-                </div>
-                <div class="todo">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="todo7">
-                        <label class="custom-control-label" for="todo7">Swim in a lake</label>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="card-footer card-header-white text-center">
-            <a href="#">
-                View all
-                <i class="fa fa-fw fa-angle-right"></i>
-            </a>
-        </footer>
-    </div>
 </div>
 </div>
 
         <footer class="page-footer margin-free">
 <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6  d-flex flex-row justify-content-end">
         © 2018 Encode Themes. All rights reserved
     </div>
     <div class="col-sm-6 text-right">
@@ -218,45 +158,6 @@
 
 <script>var cookieString = "";</script>
 
-<div id="infoModalSm" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-md" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title"> Other Languages </h5>
-            </div>
-            <div class="modal-body">
-                <p>
-                    You can integrate any language using very easy method. We are used resources file to achive this.
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- This is added only for Demo purpose. Remove this when you suing to your application -->
-<div class="settings card" id="settings">
-<button class="btn btn-default btnSettingsToggle"><i class="fas fa-cog fa-spin"></i></button>
-<div class="card-header card-header-white">Theme Selector</div>
-<div class="card-body">
-    <ul id="themecolors" class="m-t-20">
 
-        <li><a href="javascript:void(0)" data-theme="one" class="choose-theme theme-one-icon active">1</a></li>
-        <li><a href="javascript:void(0)" data-theme="two" class="choose-theme theme-two-icon ">2</a></li>
-        <li><a href="javascript:void(0)" data-theme="three" class="choose-theme theme-three-icon ">3</a></li>
-        <li><a href="javascript:void(0)" data-theme="four" class="choose-theme theme-four-icon ">4</a></li>
-        <li><a href="javascript:void(0)" data-theme="five" class="choose-theme theme-five-icon ">5</a></li>
-        <li><a href="javascript:void(0)" data-theme="six" class="choose-theme theme-six-icon ">6</a></li>
-        <li><a href="javascript:void(0)" data-theme="seven" class="choose-theme theme-seven-icon ">7</a></li>
-        <li><a href="javascript:void(0)" data-theme="eight" class="choose-theme theme-eight-icon ">8</a></li>
-    </ul>
-    <h6 class="mt-2 mb-2">Multi Language</h6>
-    <div class="m-1">
-        <a class="btn btn-block btn-outline-primary btn-sm changeCulture" culture="ar">RTL Arabic</a>
-        <a class="btn btn-block btn-outline-primary btn-sm changeCulture mt-2" culture="zh">Chinese</a>
-    </div>
-</div>
-</div>
 
 @endsection
