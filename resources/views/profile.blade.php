@@ -20,7 +20,7 @@
                   <div class="media-body">
                     <div class="col-lg-12">
                       <div class="text-white user-title">
-                          <h4>John Heart</h4>
+                          <h4>{{Auth::user()->name}}</h4>
                           <span class="text-white">Customer Service</span>
                         </div>
                       <span class="btn btn-warning mt-1">Change profile</span>

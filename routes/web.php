@@ -12,9 +12,13 @@
 */
 
 //route for main page
-Route::get('/', 'Viewcontroller@index');
+Route::get('/',function(){
+  return view('auth.login');
+});
+Route::get('/dashboard', 'Viewcontroller@index')->name('dashboard');
 Route::get('profile', 'Viewcontroller@profile');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('api_url','APIController@api');

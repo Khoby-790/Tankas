@@ -4,11 +4,11 @@
 
 
 <div class="container-fluid">
-    
+
     <main role="main" class="main-content ml-sm-auto px-4">
 
 <div class="mb-4">
-<h3> Hi John Heart </h3>
+<h3> Hi {{Auth::user()->name}} </h3>
 <div class="text-muted text-tiny mt-1">
     <h4><small class="font-weight-normal">Today is Saturday, 17 November 2018</small></h4>
 </div>
