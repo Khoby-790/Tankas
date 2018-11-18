@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tankas</title>
+    <!-- Favicon -->
+    <link rel="icon" href="{{asset('images/logo.png')}}" />
     <meta name="description" content="High performance admin theme for .net core with all features like bootstrap 4, entity framework and.net identity. This theme can be used for any kind of application Home" />
     <meta name="news_keywords" content="bootstrap 4, admin template, admin theme, .net core admin theme" />
 
