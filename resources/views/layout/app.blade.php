@@ -95,7 +95,7 @@
                     </a>
                     <div class="dropdown-arrow"></div>
                     <div class="dropdown-menu dropdown-menu-right mr-2">
-                        <a class="dropdown-item" href="User/UserProfile.html">
+                        <a class="dropdown-item" href="{{url('profile')}}">
                             <i class="far fa-user"></i> Profile
                         </a>
                         <a class="dropdown-item" href="index.html">
