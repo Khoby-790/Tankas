@@ -27,7 +27,7 @@
             <button class="btn btn-link d-xl-none" data-et-action="aside-open" data-et-target=".sidebar" p-0 ml-1" id="btnmenu">
                 <i class="fas fa-align-justify"></i>
             </button>
-            <a class="d-none d-md-block" href="{{route('/')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
+            <a class="d-none d-md-block" href="{{route('/dashboard')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
         </div>
         <div class="container-nav-bar">
             <ul class="nav justify-content-end navbar-right">
@@ -91,7 +91,7 @@
                             <img src="{{asset('images/user-profile.png')}}" alt="">
                         </span>
                         <span class="profile-summary pr-lg-2 d-none d-lg-block">
-                            <span class="profile-name">{{Auth::user()->name}}</span>
+                            <span class="profile-name">John Heart</span>
                             <span class="profile-description">Customer Service</span>
                         </span>
                     </a>
@@ -121,7 +121,7 @@
 
   <ul class="menu">
     <li class="menu-item has-active">
-      <a href="{{route('/')}}" class="menu-link">
+      <a href="{{route('/dashboard')}}" class="menu-link">
         <span class="menu-icon fa fa-tachometer-alt"></span>
         <span class="menu-text">Dashboard</span>
       </a>
