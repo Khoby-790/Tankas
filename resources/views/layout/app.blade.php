@@ -27,7 +27,7 @@
             <button class="btn btn-link d-xl-none" data-et-action="aside-open" data-et-target=".sidebar" p-0 ml-1" id="btnmenu">
                 <i class="fas fa-align-justify"></i>
             </button>
-            <a class="d-none d-md-block" href="{{asset('index')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
+            <a class="d-none d-md-block" href="{{route('/')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
         </div>
         <div class="container-nav-bar">
             <ul class="nav justify-content-end navbar-right">
@@ -88,7 +88,7 @@
                 <li class="dropdown nav-item">
                     <a href="#" class="dropdown btn-user" data-toggle="dropdown">
                         <span class="user-avatar">
-                            <img src="images/user-profile.png" alt="">
+                            <img src="{{asset('images/user-profile.png')}}" alt="">
                         </span>
                         <span class="profile-summary pr-lg-2 d-none d-lg-block">
                             <span class="profile-name">{{Auth::user()->name}}</span>
@@ -97,7 +97,7 @@
                     </a>
                     <div class="dropdown-arrow"></div>
                     <div class="dropdown-menu dropdown-menu-right mr-2">
-                        <a class="dropdown-item" href="{{url('profile')}}">
+                        <a class="dropdown-item" href="{{route('profile')}}">
                             <i class="far fa-user"></i> Profile
                         </a>
                         <a class="dropdown-item" href="index.html">
@@ -119,8 +119,31 @@
           </div>
           <nav id="slide-menu" class="slide-menu slide-menu-has-collapsible do-scroll">
 
-  <ul class="menu"><li class="menu-item has-active"><a href="index.html" class="menu-link"><span class="menu-icon fa fa-tachometer-alt"></span><span class="menu-text">Dashboard</span></a></li><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fa fa-database"></span><span class="menu-text">Entity Framework</span><span class="badge badge-warning" id="badgeCrud">CRUD</span></a><ul class="menu"><li class="menu-item"><a href="Masters/Employees.html" class="menu-link">Employee Master</a></li><li class="menu-item"><a href="Masters/Designations.html" class="menu-link">Designation Master</a></li><li class="menu-item"><a href="Masters/Departments.html" class="menu-link">Department Master</a></li><li class="menu-item"><a href="Masters/Countries.html" class="menu-link">Country Master</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user-cog"></span><span class="menu-text">.Net Identity Custom</span><span class="badge badge-success" id="badgeNew">New</span></a><ul class="menu"><li class="menu-item"><a href="Identity/Account/Login6ee2.html" class="menu-link">Manage</a></li><li class="menu-item"><a href="Identity/Account/Login.html" class="menu-link">Login</a></li><li class="menu-item"><a href="Identity/Account/Register.html" class="menu-link">Registration</a></li><li class="menu-item"><a href="Identity/Account/ForgotPassword.html" class="menu-link">Forgot Password</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fa fa-puzzle-piece"></span><span class="menu-text">HTML Components</span></a><ul class="menu"><li class="menu-item"><a href="Components/GeneralElements.html" class="menu-link">General Elements</a></li><li class="menu-item"><a href="Components/FontIconsOpenIconic.html" class="menu-link">Font Icons (Open Iconic)</a></li><li class="menu-item"><a href="Components/FontIconsFontAwsome.html" class="menu-link">Font Icons (Font Awsome)</a></li><li class="menu-item"><a href="Components/ListViews.html" class="menu-link">List Views</a></li><li class="menu-item"><a href="Components/TreeViews.html" class="menu-link">Tree Views</a></li><li class="menu-item"><a href="Components/SortableNestable.html" class="menu-link">Sortable & Nestable</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-table"></span><span class="menu-text">Tables</span></a><ul class="menu"><li class="menu-item"><a href="Tables/HTMLTable.html" class="menu-link">HTML Tables</a></li><li class="menu-item"><a href="Tables/DataTable.html" class="menu-link">Data Tables</a></li><li class="menu-item"><a href="Masters/Employees.html" class="menu-link">Data Tables (Server Mode)</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fab fa-wpforms"></span><span class="menu-text">Forms</span></a><ul class="menu"><li class="menu-item"><a href="Forms/BasicElements.html" class="menu-link">Basic Elements</a></li><li class="menu-item"><a href="Forms/InputGroup.html" class="menu-link">Input Group</a></li><li class="menu-item"><a href="Forms/FormValidations.html" class="menu-link">Form Validations</a></li><li class="menu-item"><a href="Forms/CustomForms.html" class="menu-link">Custom Forms</a></li><li class="menu-item"><a href="Forms/Select2.html" class="menu-link">Select2</a></li><li class="menu-item"><a href="Forms/Typehead.html" class="menu-link">Typehead</a></li><li class="menu-item"><a href="Forms/Pickers.html" class="menu-link">Pickers</a></li><li class="menu-item"><a href="Forms/HTMLEditors.html" class="menu-link">HTML Editors</a></li><li class="menu-item"><a href="Forms/Slider.html" class="menu-link">Slider</a></li><li class="menu-item"><a href="Forms/Spinner.html" class="menu-link">Spinner</a></li><li class="menu-item"><a href="Forms/Uploader.html" class="menu-link">Uploader</a></li><li class="menu-item"><a href="Forms/Steps.html" class="menu-link">Steps</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-chart-pie"></span><span class="menu-text">Charts</span></a><ul class="menu"><li class="menu-item"><a href="Charts/ChartJs.html" class="menu-link">Chart Js</a></li><li class="menu-item"><a href="Charts/MorrisCharts.html" class="menu-link">Morris Charts</a></li><li class="menu-item"><a href="Charts/FlotCharts.html" class="menu-link">Flot Charts</a></li><li class="menu-item"><a href="Charts/HighchartTable.html" class="menu-link">Highchart Table</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-user"></span><span class="menu-text">User</span></a><ul class="menu"><li class="menu-item"><a href="User/UserProfile.html" class="menu-link">User Profile</a></li><li class="menu-item"><a href="User/Tasks.html" class="menu-link">Tasks</a></li><li class="menu-item"><a href="User/Projects.html" class="menu-link">Projects</a></li><li class="menu-item"><a href="User/Activities.html" class="menu-link">Activities</a></li></ul><li class="menu-item has-child"><a href="#" class="menu-link"><span class="menu-icon fas fa-layer-group"></span><span class="menu-text">Pages</span></a><ul class="menu"><li class="menu-item"><a href="Pages/BlankPage.html" class="menu-link">Blank Page</a></li><li class="menu-item"><a href="Pages/Invoice.html" class="menu-link">Invoice</a></li><li class="menu-item"><a href="Pages/Pricing.html" class="menu-link">Pricing</a></li><li class="menu-item"><a href="Pages/NotFound.html" class="menu-link">404</a></li></ul><li class="menu-item"><a href="Components/Calendar.html" class="menu-link"><span class="menu-icon fas fa-calendar-alt"></span><span class="menu-text">Calendar</span></a></li></ul>
-
+  <ul class="menu">
+    <li class="menu-item has-active">
+      <a href="{{route('/')}}" class="menu-link">
+        <span class="menu-icon fa fa-tachometer-alt"></span>
+        <span class="menu-text">Dashboard</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="{{route('report')}}" class="menu-link">
+        <span class="menu-icon fa fa-file"></span>
+        <span class="menu-text">Reports</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="{{route('client')}}" class="menu-link">
+        <span class="menu-icon fa fa-user"></span>
+        <span class="menu-text">Clients</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="{{route('area')}}" class="menu-link">
+        <span class="menu-icon fa fa-globe-africa"></span>
+        <span class="menu-text">Areas</span>
+      </a>
+    </li>
   <!-- .aside-menu -->
             </nav>
       </aside>
