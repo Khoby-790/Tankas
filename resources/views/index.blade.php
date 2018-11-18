@@ -6,8 +6,7 @@
         <button class="btn btn-link d-xl-none" data-et-action="aside-open" data-et-target=".sidebar" p-0 ml-1" id="btnmenu">
             <i class="fas fa-align-justify"></i>
         </button>
-        <a class="d-none d-md-block" href="index.html"><img alt="Bootstrap 4 Admin Template for .Net Core 2.1" class="brand-logo" src="images/logo.png" style="height:35px;" /></a>
-        <a href="index.html" class="d-md-none"><img alt="Bootstrap 4 Admin Template for .Net Core 2.1" class="brand-logo-icon" src="images/logo-icon.png" style="height:35px;" /></a>
+        <a class="d-none d-md-block" href="{{asset('index')}}"><img alt="Tankas Homepage" class="brand-logo" src="{{asset('images/logo2.png')}}" style="height:50px; padding-left:50px; margin-top: -5px;" /></a>
     </div>
     <div class="container-nav-bar">
         <ul class="nav justify-content-end navbar-right">
@@ -64,20 +63,7 @@
                     </div>
                 </div>
             </li>
-            <li class="dropdown nav-item">
-                <a href="#" class="dropdown" data-toggle="dropdown">
-                    <i class="fas fa-globe"></i>
-                    <span class="d-none d-md-block d-lg-block d-xl-block">
-English                        </span>
-                </a>
-                <div class="dropdown-arrow"></div>
-                <div role="menu" class="dropdown-menu dropdown-light dropdown-menu-right">
-                    <a class="dropdown-item changeCulture" href="#" culture="en">English</a>
-                    <a class="dropdown-item changeCulture" href="#" culture="ar">&#x639;&#x631;&#x628;&#x649;</a>
-                    <a class="dropdown-item changeCulture" href="#" culture="zh">&#x4E2D;&#x6587;</a>
-                    <a class="dropdown-item infoOtherLanguage" data-toggle="modal" data-target="#infoModalSm" href="#">Other Languages</a>
-                </div>
-            </li>
+
             <li class="dropdown nav-item">
                 <a href="#" class="dropdown btn-user" data-toggle="dropdown">
                     <span class="user-avatar">
@@ -85,7 +71,7 @@ English                        </span>
                     </span>
                     <span class="profile-summary pr-lg-2 d-none d-lg-block">
                         <span class="profile-name">John Heart</span>
-                        <span class="profile-description">Marketing Manager</span>
+                        <span class="profile-description">Customer Service</span>
                     </span>
                 </a>
                 <div class="dropdown-arrow"></div>
@@ -99,7 +85,6 @@ English                        </span>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Help Center</a>
                     <a class="dropdown-item" href="#">Ask Forum</a>
-                    <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
                 </div>
             </li>
         </ul>
