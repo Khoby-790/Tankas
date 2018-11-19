@@ -10,7 +10,7 @@
 <div class="mb-4">
 <h3> Hi {{Auth::user()->name}} </h3>
 <div class="text-muted text-tiny mt-1">
-    <h4><small class="font-weight-normal">Today is Saturday, 17 November 2018</small></h4>
+    <h4><small class="font-weight-normal">Today is <span id="Day"></span>, <span id="Date"></span> November <spani id="year"></span> </small></h4>
 </div>
 </div>
 
@@ -153,6 +153,12 @@
 
 <script>var cookieString = "";</script>
 
-
+<script type="text/javascript">
+let d = new Date();
+    let Days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    document.getElementById('Day').innerHTML = Days[d.getDay()];
+    document.getElementById('Date').innerHTML = d.getDate();
+    document.getElementById('year').innerHTML = d.getFullYear();
+</script>
 
 @endsection

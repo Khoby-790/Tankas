@@ -55,27 +55,27 @@
                   <form class="" action="" method="post">
                     <div class="row form-group mr-3 mb-2">
                         <label for="Full Name" class="form-label">Full Name</label>
-                        <input type="text" name="full_name" class="form-control" value="">
+                        <input type="text" name="full_name" class="form-control" value="" readonly>
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Contact" class="form-label">Contact</label>
-                        <input type="contact" name="contact" class="form-control" value="">
+                        <input type="contact" name="contact" class="form-control" value="" readonly>
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Email" class="form-label">Email</label>
-                        <input type="email" name="email" class="form-control" value="">
+                        <input type="email" name="email" class="form-control" value="" readonly>
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="" class="form-label">Location</label>
-                        <input type="text" name="location" class="form-control" value="">
+                        <input type="text" name="location" class="form-control" value="" readonly>
                     </div>
                     <div class="row form-group mr-3 mb-2">
                         <label for="Description" class="form-label">Description</label>
-                        <textarea name="description" class="form-control" rows="5" cols="50"></textarea>
+                        <textarea name="description" class="form-control" rows="5" cols="50" readonly></textarea>
                     </div>
                     <div class="form-group row d-flex flex-row justify-content-end mr-3">
-                      <button type="submit" name="button" class="btn btn-success mr-2">Submit</button>
-                      <button type="submit" name="button" class="btn btn-success">Edit</button>
+                      <button type="submit" name="button" class="btn btn-success mr-2">Message</button>
+                      <!-- <button type="submit" name="button" class="btn btn-success">Edit</button> -->
                     </div>
                   </form>
                 </div>

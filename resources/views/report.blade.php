@@ -68,8 +68,8 @@
                           <textarea name="description" class="form-control" rows="5" cols="50"></textarea>
                       </div>
                       <div class="form-group row d-flex flex-row justify-content-end mr-3">
-                        <button type="submit" name="button" class="btn btn-success mr-2">Submit</button>
-                        <button type="submit" name="button" class="btn btn-success">Edit</button>
+                        <button type="button" name="button" class="btn btn-info mr-2">Assign to Official</button>
+                        <button type="button" name="button" class="btn btn-success">Edit</button>
                       </div>
                     </form>
               </div>

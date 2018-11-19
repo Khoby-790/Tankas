@@ -91,7 +91,7 @@
                             <img src="{{asset('images/user-profile.png')}}" alt="">
                         </span>
                         <span class="profile-summary pr-lg-2 d-none d-lg-block">
-                            <span class="profile-name">John Heart</span>
+                            <span class="profile-name">{{Auth::user()->name}}</span>
                             <span class="profile-description">Customer Service</span>
                         </span>
                     </a>
@@ -100,7 +100,14 @@
                         <a class="dropdown-item" href="{{route('profile')}}">
                             <i class="far fa-user"></i> Profile
                         </a>
-                        <a class="dropdown-item" href="index.html">
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+
+                        <a  class="dropdown-item" href="{{ route('logout') }}"
+                           onclick="event.preventDefault();
+                                         document.getElementById('logout-form').submit();">
                             <i class="fas fa-sign-in-alt"></i> Logout
                         </a>
                         <div class="dropdown-divider"></div>
